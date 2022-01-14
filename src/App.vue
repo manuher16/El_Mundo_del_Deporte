@@ -2,7 +2,7 @@
   <v-app>
     <Navbar />
     <v-main>
-      <Contact />
+      <ButtonContact />
       <router-view />
     </v-main>
     <Footer />
@@ -14,7 +14,8 @@
 import WelcomeModal from "./components/Home/WelcomeModal";
 import Footer from "./components/Navigation/Footer";
 import Navbar from "./components/Navigation/Navbar";
-import Contact from "./components/ButtonFloatContact";
+
+import ButtonContact from "./components/buttonContact.vue";
 export default {
   name: "App",
 
@@ -25,7 +26,8 @@ export default {
     Footer,
     Navbar,
     WelcomeModal,
-    Contact,
+
+    ButtonContact,
   },
 };
 </script>
