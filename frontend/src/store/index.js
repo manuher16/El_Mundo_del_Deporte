@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import popUpWindows from "../modules/popPupWindows"
+import modalInfoService from "../modules/modal"
 Vue.use(Vuex)
 
 export default new Vuex.Store({
@@ -11,6 +12,7 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
-    modals: popUpWindows
+    modals: popUpWindows,
+    modalInfoService: modalInfoService
   }
 })

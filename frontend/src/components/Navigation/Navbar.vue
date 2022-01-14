@@ -2,16 +2,17 @@
   <div>
     <v-app-bar app color="" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-btn text href="/" class="px-0 mx-0">
-        <v-img
-          src="/logo.jpg"
-          contian
-          height="25"
-          width="250"
-          class="mx-0 px-0"
-        />
-      </v-btn>
-
+      <div class="container-logo">
+        <a href="/">
+          <v-img
+            src="/logo.png"
+            height="40"
+            width="150"
+            class="mx-0 px-0"
+            contain
+          />
+        </a>
+      </div>
       <v-spacer></v-spacer>
 
       <DropMenu label="Sobre" button href="about" />
@@ -115,5 +116,12 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.container-logo {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 20px;
 }
 </style>

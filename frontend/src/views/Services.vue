@@ -11,8 +11,10 @@
         <Art v-if="service == 'arte'" />
         <Music v-if="service == 'musica'" />
         <LegalAdvice v-if="service == 'asesoramiento-legal'" />
+        <PersonalTrainer v-if="service == 'entrenador-personal'" />
       </v-card-content>
     </v-card>
+    <ModalServices />
   </v-container>
 </template>
 
@@ -26,6 +28,8 @@ import ExtremeSports from "./ExtremeSports.vue";
 import Art from "./Art.vue";
 import Music from "./Music.vue";
 import LegalAdvice from "./LegalAdvice.vue";
+import ModalServices from "../components/ModalInfoServices.vue";
+import PersonalTrainer from "./PersonalTrainer.vue";
 export default {
   data: () => ({
     service: "",
@@ -43,6 +47,8 @@ export default {
     Art,
     Music,
     LegalAdvice,
+    ModalServices,
+    PersonalTrainer,
   },
 };
 </script>

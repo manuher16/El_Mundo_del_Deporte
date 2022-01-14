@@ -1,10 +1,5 @@
 <template>
-  <v-container fluid>
-    <v-card width="100%" flat>
-      <v-card-title class="d-flex text-center text-h2">
-        <v-subheading> EL mundo del deporte HN y mas </v-subheading>
-      </v-card-title>
-    </v-card>
+  <v-container fluid class="mx-0 px-0">
     <Carousel />
     <v-card>
       <ListServices />
