@@ -3,6 +3,49 @@
     <v-card-title>
       <v-subheading>Idomas</v-subheading>
     </v-card-title>
+
+    <v-card-text>
+      <v-row>
+        <v-col md="2">
+          <v-img
+            src="https://www.redem.org/wp-content/uploads/2016/07/bilingual_people.png"
+            width="300"
+            contain
+          ></v-img
+        ></v-col>
+        <v-col
+          >No importa a qué edad se aprende un idioma, si desde la niñez o ya
+          siendo adulto, se ha comprobado que ser bilingüe es beneficial para el
+          desarrollo cognitivo de las personas.</v-col
+        >
+      </v-row>
+    </v-card-text>
+    <v-card-subtitle class="text-h6"
+      >Beneficios de hablar otro idioma
+    </v-card-subtitle>
+    <v-card-text>
+      <v-row>
+        <v-col>
+          <ul>
+            <li>Flexivilidad cognitiva</li>
+            <li>Pensar en otra lengua ayuda a tomar deciones mas razonables</li>
+            <li>Aumneta tu confianza</li>
+            <li>Entrena el cerebro</li>
+            <li>Da un impulso a tu carrera</li>
+            <li>Experimenta nuevas culturas</li>
+            <li>Te abrira la mente</li>
+            <li>Vivir, trabajar o estudiar en el extranjero</li>
+          </ul>
+        </v-col>
+        <v-col class="justify-end" col="12" md="3">
+          <v-img
+            src="https://img.vixdata.io/pd/jpg-large/es/sites/default/files/btg/curiosidades.batanga.com/files/7-interesantes-beneficios-de-hablar-mas-de-una-lengua-y-sus-efectos-en-el-cerebro-2.jpg"
+            width="300"
+            contain
+          ></v-img>
+        </v-col>
+      </v-row>
+    </v-card-text>
     <v-card-text>
       <ListLanguage :items="items" />
     </v-card-text>

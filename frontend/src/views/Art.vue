@@ -2,6 +2,46 @@
   <v-card flat>
     <v-card-title><v-subheading>Artes</v-subheading></v-card-title>
     <v-card-text>
+      <v-row>
+        <v-col md="3">
+          <v-img
+            src="https://tec.mx/sites/default/files/styles/header_full/public/2020-12/arte-y-emociones.jpg?itok=v5K0OjDy"
+          />
+        </v-col>
+        <v-col
+          >El arte es cualquier actividad humana que recurre a emociones y al
+          intelecto para crear obras que tienen características estéticas. Esto
+          agrupa ámbitos diferentes como la escultura, la pintura, la danza, la
+          poesía, la cocina, el cine, los grabados, el teatro, las historietas y
+          la fotografía.
+        </v-col>
+      </v-row>
+    </v-card-text>
+    <v-card-title>Beneficios a través del arte </v-card-title>
+    <v-card-text>
+      <v-row>
+        <v-col>
+          <ul>
+            <li>Impulso de la creatividad</li>
+            <li>Formación de su propio criterio.</li>
+            <li>Incremento de la concentración</li>
+            <li>Incremento de la concentración</li>
+            <li>Ayuda a la coordinación</li>
+            <li>Conocimiento de la historia</li>
+            <li>Uso de los sentidos</li>
+            <li>Aprendizaje de valores</li>
+          </ul>
+        </v-col>
+        <v-col md="3">
+          <v-img
+            cover
+            src="https://huelvabuenasnoticias.com/wp-content/uploads/2020/11/handmadeamazon-1.jpg"
+          />
+        </v-col>
+      </v-row>
+    </v-card-text>
+    <v-divider />
+    <v-card-text>
       <ListArts :items="items" />
     </v-card-text>
   </v-card>

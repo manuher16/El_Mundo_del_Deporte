@@ -63,7 +63,26 @@
         />
       </v-col>
     </v-row>
-
+    <v-card-title>Nuestro sistema de Entrenamiento </v-card-title>
+    <v-card-text class="my-2 py-0"
+      >Está diseñado para garantizarle a usted y a los suyos contar con guardas
+      de seguridad profesionales.
+    </v-card-text>
+    <v-card-text class="my-2 py-0"
+      >Está diseñado para garantizarle a usted y a los suyos contar con guardas
+      de seguridad profesionales.
+    </v-card-text>
+    <v-card-text class="my-2 py-0"
+      >Según nuestras estadísticas, los guardas de seguridad capacitados tienen
+      mayores tasas de productividad y efectividad.
+    </v-card-text>
+    <v-card-text class="text-h6 my-2 py-0 font-weight-black"
+      >Si deseas obtener nuestros servicios contactanos
+    </v-card-text>
+    <v-row>
+      <v-col></v-col>
+      <v-col></v-col>
+    </v-row>
     <v-card-text>
       <ListTrainer :items="items" />
     </v-card-text>

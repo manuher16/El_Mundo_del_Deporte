@@ -1,5 +1,10 @@
 <template>
-  <v-dialog v-model="modalInfoService" persistent class="mx-0">
+  <v-dialog
+    v-model="modalInfoService"
+    v-if="modalInfoService"
+    persistent
+    class="mx-0"
+  >
     <v-card>
       <v-sheet :color="content.color ? content.color : 'black'">
         <v-card-title class="text-h3 white--text"

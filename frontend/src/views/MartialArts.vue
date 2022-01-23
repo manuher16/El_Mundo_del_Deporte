@@ -3,6 +3,49 @@
     <v-card-title>
       <v-subheading> Artes Marciales </v-subheading>
     </v-card-title>
+    <v-card-text>
+      Artes marciales. Denominadas también sistemas de lucha, consisten en
+      prácticas cuyo objetivo es someter o defenderse mediante la técnica. Hay
+      varios estilos de artes marciales que excluyen el empleo de armas de fuego
+      y otro armamento moderno. Lo que diferencia a las artes marciales de la
+      violencia física (peleas callejeras)es la organización de sus técnicas en
+      un sistema coherente y la codificación de métodos efectivos. En la
+      actualidad las artes marciales se practican por diferentes razones, que
+      incluyen el deporte, la salud, la protección personal, el desarrollo
+      personal, la disciplina mental, la forja del carácter y la autoconfianza.
+      Además, incluye conocimientos relativos a sistemas que tradicionalmente se
+      han considerado modalidades deportivas.
+    </v-card-text>
+    <v-card-title>Beneficios de practicar una arte marcial</v-card-title>
+    <v-card-text>
+      <ul>
+        <li>Asimila la autodefensa.</li>
+        <li>Aprende disciplina, respeto y sentido de la responsabilidad.</li>
+        <li>
+          Mejora tu carácter, alivia la ansiedad y canaliza tu agresividad.
+        </li>
+        <li>Aumenta tu confianza y la seguridad en ti mismo.</li>
+        <li>Mejora tu salud y tu calidad de vida.</li>
+        <li>Trabaja tu concentración y tu paciencia.</li>
+      </ul>
+    </v-card-text>
+    <v-card-title
+      >Potencia tu coordinación y tu equilibrio Haz amigos y aumenta tu lista de
+      contactos
+    </v-card-title>
+    <v-card-text>
+      Quieres iniciarte en las artes Marciales sin salir de casa? Aprende a
+      continuación las principales características de las artes marciales más
+      conocidas a nivel mundial. Te explicamos también las técnicas más
+      habituales y los beneficios que aporta estas Artes Marciales. Al final de
+      cada informacion encontraras un boton donde podras contactarnos y uno de
+      nuestros agentes te ayudara con la informacion que necesites. Quieres
+      iniciar un estilo de vida más saludable y cumplir tus objetivos sin salir
+      de casa. Conoce las opciones de entrenamientos personalizados que tenemos
+      a disposición. Debajo de la información de cada uno encontrarás un botón
+      para contactarnos y uno de nuestros agentes te ayudará con la información
+      que necesites.
+    </v-card-text>
     <v-divider></v-divider>
     <v-card-text>
       <ListMartialArts :items="items" />

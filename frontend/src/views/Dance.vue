@@ -4,6 +4,60 @@
       <v-subheading> Bailes </v-subheading>
     </v-card-title>
     <v-card-text>
+      <v-row>
+        <v-col md="3">
+          <v-img
+            src="https://p4.wallpaperbetter.com/wallpaper/538/775/721/ballet-dance-dancing-drama-wallpaper-preview.jpg"
+            contian
+          ></v-img>
+        </v-col>
+        <v-col>
+          El baile es una forma de expresión que puede practicarse a cualquier
+          edad. Se trata de una de la mejor manera de mantenerse en forma,
+          facilitar el movimiento muscular sin darse cuenta y disfrutar de una
+          terapia eficaz tanto para el cuerpo como para el alma.
+        </v-col>
+      </v-row>
+    </v-card-text>
+    <v-card-title>Beneficios de la danza </v-card-title>
+    <v-card-text>
+      <v-row>
+        <v-col>
+          Estimula la práctica de ejercicio físico
+          <ul>
+            <li>Provoca buen humor</li>
+            <li>Combate el estreñimiento</li>
+            <li>Favorece el riego sanguíneo</li>
+            <li>Mejora el sistema cardiovascular</li>
+            <li>Produce bienestar en cuerpo y mente</li>
+            <li>Favorece la comunicación y expresión</li>
+            <li>Fortalecen los pies, piernas y brazos.</li>
+            <li>Favorece la relación con otras personas</li>
+            <li>Es válida para personas de cualquier edad</li>
+            <li>Ayuda a mantener una correcta postura al caminar</li>
+            <li>
+              La variedad de coreografías estimula la creatividad y flexibilidad
+            </li>
+            <li>
+              Es recomendable para mujeres en la etapa de menopausia debido a
+              sus beneficios para los huesos
+            </li>
+            <li>
+              Es recomendable para mujeres con dolencias de espalda o en la zona
+              lumbar
+            </li>
+          </ul>
+        </v-col>
+        <v-col md="4">
+          <v-img
+            src="https://cdn.blackpoolgrand.co.uk/app/uploads/2018/01/Russian-Ballet-Swan-Lake.jpg"
+            contian
+          />
+        </v-col>
+      </v-row>
+      <v-divider />
+    </v-card-text>
+    <v-card-text>
       <ListDances :items="items" />
     </v-card-text>
   </v-card>

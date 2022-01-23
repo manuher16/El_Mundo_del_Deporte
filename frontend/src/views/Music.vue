@@ -2,6 +2,49 @@
   <v-card flat>
     <v-card-title><v-subheading> Musica</v-subheading></v-card-title>
     <v-card-text>
+      <v-row>
+        <v-col md="3">
+          <v-img
+            src="https://concepto.de/wp-content/uploads/2020/03/musica-e1584123209397.jpg"
+            contain
+          />
+        </v-col>
+        <v-col>
+          Se puede describir a la Música como un conjunto de sonidos y
+          silencios, organizados de una manera particular, y regidos por los
+          preceptos del ritmo, la melodía y armonía. Sin embargo, ésta
+          definición no alcanza. Es una forma de comunicación y manifestación
+          del ser humano, una expresión artística producto de la cultura, que
+          puede evocar sensaciones y emociones.
+        </v-col>
+      </v-row>
+    </v-card-text>
+    <v-card-title>Beneficios de la música </v-card-title>
+    <v-card-text>
+      El aprendizaje de la Música desarrolla:
+      <v-row>
+        <v-col>
+          <ul>
+            <li>La creatividad</li>
+            <li>La valoración individual.</li>
+            <li>Fomenta el trabajo en equipo</li>
+            <li>La inteligencia emocional y la sensibilidad.</li>
+            <li>
+              Estimula las capacidades motoras, cognitivas, afectivas,
+              introspectivas, perceptivas de las personas
+            </li>
+          </ul>
+        </v-col>
+        <v-col md="2">
+          <v-img
+            contain
+            src="https://www.hola.com/imagenes/ninos/2017070596737/canciones-infantiles-instrumentos-musicales-hk/0-467-59/canciones-infantiles1-z.jpg"
+          />
+        </v-col>
+      </v-row>
+    </v-card-text>
+    <v-divider />
+    <v-card-text>
       <ListMusic :items="items" />
     </v-card-text>
   </v-card>
