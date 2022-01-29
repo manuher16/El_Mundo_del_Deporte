@@ -25,7 +25,7 @@ export default {
             },
             text: "Profecional que ayuda a otras a construir hábitos de alimentación saludables para mejorar la salud y prevenir enfermedades. Brinda consejería nutricional, planifica comidas y programas educativos sobre nutrición. Los nutricionistas también observan los efectos del ambiente en la calidad y seguridad de los alimentos, y en cómo afectan la salud.",
           },
-          { type: "title", text: "Beneficios de tener un nutricionista " },
+          { type: "subtitle", text: "Beneficios de tener un nutricionista " },
           {
             type: "list",
             list: [
@@ -44,7 +44,7 @@ export default {
           },
           {
             type: "text",
-            text: "Quieres iniciar un estilo de vida más saludable y cumplir tus objetivos sin salir de casa. Conoce los beneficios que puedes obtener. Debajo de la información de cada uno encontrarás un botón para contactarnos y uno de nuestros agentes te ayudará con la información que necesites. ",
+            text: "Quieres iniciar un estilo de vida más saludable y cumplir tus objetivos sin salir de casa. Conoce los beneficios que puedes obtener. Pulsa el boton  para contactarnos y uno de nuestros agentes te ayudará con la información que necesites. ",
             bold: true,
           },
         ],
@@ -63,7 +63,7 @@ export default {
               src: "https://cdn.euroinnova.edu.es/img/subidasEditor/3-1626426495.webp",
             },
           },
-          { type: "title", text: "Beneficios de la fisioterapia " },
+          { type: "subtitle", text: "Beneficios de la fisioterapia " },
           {
             type: "list",
             list: [
@@ -82,7 +82,7 @@ export default {
           },
           {
             type: "text",
-            text: "Quieres  mejorar tus problemas en articulaciones, tratar alguna lesion o iniciar un estilo de vida más saludable y poder cumplir tus objetivos sin salir de casa. Conoce los beneficios que puedes optener. Debajo de la información de cada uno encontrarás un botón para contactarnos y uno de nuestros agentes te ayudará con la información que necesites. ",
+            text: "Quieres  mejorar tus problemas en articulaciones, tratar alguna lesion o iniciar un estilo de vida más saludable y poder cumplir tus objetivos sin salir de casa. Conoce los beneficios que puedes obtener. Pulsa el botón para contactarnos y uno de nuestros agentes te ayudará con la información que necesites. ",
             bold: true,
           },
         ],
@@ -102,7 +102,7 @@ export default {
             },
           },
           {
-            type: "title",
+            type: "subtitle",
             text: "Beneficios de contar con médico a domicilio",
           },
           {
@@ -123,7 +123,7 @@ export default {
           },
           {
             type: "text",
-            text: "Quieres iniciar un estilo de vida más saludable y cumplir tus objetivos sin salir de casa. Conoce los beneficios que puedes obtener. Debajo de la información de cada uno encontrarás un botón para contactarnos y uno de nuestros agentes te ayudará con la información que necesites. ",
+            text: "Necesitas asistencia medica sin salir de casa. Conoce los beneficios que puedes obtener con un medico a domicilio. Pulsa el boton  para contactarnos y uno de nuestros agentes te ayudará con la información que necesites. ",
             bold: true,
           },
         ],
@@ -133,7 +133,7 @@ export default {
       },
       {
         title: "Psicologo",
-        description: "",
+        description: [],
         image:
           "https://resizer.glanacion.com/resizer/rJEUB4BgT_3Dr4gkJsfbWZoiL08=/879x586/smart/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/X2J6WOZGXRGIRBUHTWGZ5XRK2U.jpg",
         href: "",
