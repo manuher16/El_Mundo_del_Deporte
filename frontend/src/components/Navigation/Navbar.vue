@@ -15,10 +15,11 @@
       </div>
       <v-spacer></v-spacer>
 
-      <DropMenu label="Sobre" button href="about" />
+      <DropMenu label="Conocenos" button href="about" />
     </v-app-bar>
     <v-navigation-drawer
       v-model="drawer"
+      style="z-index: 100"
       fixed
       top
       temporary
@@ -31,7 +32,7 @@
           <div class="heading-drawner-menu">
             <div class="heading-drawner-menu-title">
               <v-subheading class="text-uppercase"
-                >El mundo del deporte HN
+                >Mundo deportes y mas HN
               </v-subheading>
             </div>
             <v-btn fab color="error" @click="drawer = false">
@@ -94,6 +95,11 @@ export default {
         name: "Deportes Extremos y al aire libre",
         href: "/deporte-extremos",
         icon: "mdi-close",
+      },
+      {
+        name: "Otros",
+        href: "/otros",
+        icon: "mdi-plus",
       },
     ],
     group: 0,

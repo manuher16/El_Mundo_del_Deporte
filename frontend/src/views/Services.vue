@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid class="mx- px-0">
+  <v-container class="mx- px-0">
     <v-card width="100%" flat>
       <v-card-content>
         <Sport v-if="service == 'deportes'" />

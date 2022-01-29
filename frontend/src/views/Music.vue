@@ -87,7 +87,7 @@ export default {
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -127,7 +127,7 @@ export default {
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -162,7 +162,7 @@ export default {
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -196,7 +196,7 @@ export default {
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -234,7 +234,7 @@ export default {
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -272,7 +272,7 @@ export default {
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -308,7 +308,7 @@ export default {
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -350,7 +350,7 @@ export default {
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
       },
@@ -382,6 +382,11 @@ export default {
             image: {
               src: "https://cdn.schoolofrock.com/img/lesson-callout-750w/singingadvanced1527032566.jpg",
             },
+          },
+          {
+            type: "text",
+            bold: true,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
       },

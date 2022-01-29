@@ -86,7 +86,7 @@ Las artes plásticas ocupan actualmente uno de los principales rubros artístico
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -129,7 +129,7 @@ Se trata, pues, de una forma de arte muy versátil, que combina el ejercicio int
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -170,7 +170,7 @@ Las técnicas de pintar y dibujar pueden confundirse, porque las herramientas so
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con maestros certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
         image:
@@ -218,6 +218,11 @@ Todas y cada una de esas posibles razones argumentan en cierta medida por qué l
             image: {
               src: "https://web.serplus.es/wp-content/uploads/2021/06/BCLEJSVCKASHZNCKS.jpeg",
             },
+          },
+          {
+            type: "text",
+            bold: true,
+            text: `Entrena con fotografos certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
       },

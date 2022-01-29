@@ -33,7 +33,7 @@ No importa si lo haces solo o acompañado, es una forma increíble de estar sano
           {
             type: "list",
             image: {
-              src: "https://www.younextbike.com/wp-content/uploads/2017/12/material-ciclismo-carretera-2018.jpg",
+              src: "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2017/12/28/3b1ee7fd-c240-4a2d-814f-9045e1d972af/entrenamiento-ciclismo-carretera",
             },
             list: [
               "Mejora el tono muscular",
@@ -144,7 +144,7 @@ Lo que busca el senderismo es intentar acercar a las personas al medio natural y
         href: "",
       },
       {
-        title: "Montanismo",
+        title: "Montañismo",
         description: [
           {
             type: "text",

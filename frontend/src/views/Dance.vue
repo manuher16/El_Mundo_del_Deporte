@@ -187,12 +187,44 @@ el equilibrio y la flexibilidad. `,
           },
         ],
         image:
-          "https://dancemotion.es/wp-content/uploads/2020/09/baile-urbano.jpg",
+          "https://dancecommunitylaura.files.wordpress.com/2018/11/jc3b2jpjopoj.jpg",
         href: "",
       },
       {
         title: "Brake Dance",
-        description: "ballet",
+        description: [
+          {
+            type: "text",
+            image: {
+              src: "https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2019/10/11/8e9ca35b-f25c-426a-bb40-338feabff9cb/world-urban-games-2019-shigekix-freeze",
+              position: "left",
+            },
+            text: "Es la danza hip hop por excelencia, uno de los elementos originales de esta cultura. También llamado b-boying, este estilo de baile comienza en los populares barrios del Bronx, Queens y Brooklyn . Se caracteriza por el trabajo de suelo, los movimientos acrobáticos, o el uso de freezes (quedarse ‘congelado’ en un movimiento durante unos segundos) ",
+          },
+          {
+            type: "subtitle",
+            text: "Beneficios del breakdance",
+          },
+          {
+            type: "list",
+            image: {
+              src: "https://www.guatemala.com/fotos/201801/break-885x500.jpg",
+              position: "right",
+            },
+            list: [
+              "Desarrollo de de la creatividad y la imaginación",
+              "Mejora la autoestima y la expresión. ",
+              "Aumento de la confianza en uno mismo. ",
+              "Mejora la coordinacion y el equilibrio ",
+              "Aumento de la fuerza y la flexibilidad ",
+            ],
+          },
+          {
+            type: "text",
+            bold: true,
+            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+          },
+        ],
         image:
           "https://static1.burgosconecta.es/www/multimedia/201909/25/media/cortadas/break-dance-kkBE-U90233957265k6E-1248x770@RC.jpg",
         href: "",
@@ -421,12 +453,8 @@ De fama internacional, el merengue es el baile y género musical oficial de la R
               "Ayuda a mantener buena postura corporal al caminar y al estar parado tu equilibrio también será mejor. ",
               "Potencia la coordinación y equilibrio del cuerpo y y la mente. ",
               "Mejora tu condición física, quemas calorías y tonificarás tu cuerpo ya que pone en ritmo a tu corazón y reduce los niveles de colesterol. ",
-              "Conocerás gente nueva e interesante y eso fomentará mejores relaciones personales. ",
               "Aumentará la seguridad y confianza en ti mismo y mejorará tu autoestima.",
-              "Disfrutarás de la música de una manera más profunda ya que tu cuerpo se involucra e incrementa tu fuerza, resistencia y flexibilidad. ",
-              "Si tienes pareja compartirá una intimidad de los unirá más y s no tienes, seguro conocerás a una. ",
-              " Te divertirás mucho, además de que vas a prevenir enfermedades emocionales y físicas. ",
-              "Te liberarás del estrés, liberarás de toxinas y esto favorecerá la relajación, fomentando tu equilibrio físico y mental.",
+              "Si tienes pareja compartirá una intimidad de los unirá más y si no tienes, seguro conocerás a una. ",
               "Incrementa la generación de Endorfinas por lo tanto aumenta tu vitalidad y te hace una persona más feliz. ",
             ],
             image: {
@@ -618,7 +646,6 @@ Se lo asocia a una forma de bailar “sensual” y provocativa, con los cuerpos 
               "Mejora la confianza y la autoestima",
               "Ayuda a liberar endorfinas.",
               "Contribuye a descubrir el ritmo en el cuerpo.",
-              "Sirve como expresión corporal. ",
               "Sirve como expresión corporal. ",
               "Favorece la extroversión ",
             ],

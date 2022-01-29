@@ -63,19 +63,7 @@
         />
       </v-col>
     </v-row>
-    <v-card-title>Nuestro sistema de Entrenamiento </v-card-title>
-    <v-card-text class="my-2 py-0"
-      >Está diseñado para garantizarle a usted y a los suyos contar con guardas
-      de seguridad profesionales.
-    </v-card-text>
-    <v-card-text class="my-2 py-0"
-      >Está diseñado para garantizarle a usted y a los suyos contar con guardas
-      de seguridad profesionales.
-    </v-card-text>
-    <v-card-text class="my-2 py-0"
-      >Según nuestras estadísticas, los guardas de seguridad capacitados tienen
-      mayores tasas de productividad y efectividad.
-    </v-card-text>
+
     <v-card-text class="text-h6 my-2 py-0 font-weight-black"
       >Si deseas obtener nuestros servicios contactanos
     </v-card-text>
@@ -176,6 +164,74 @@ La hipertrofia busca el crecimiento del musculo y de las fibras musculares por l
             type: "text",
             bold: true,
             text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+          },
+        ],
+      },
+      {
+        title: "Entrenamiento de Hiit  ",
+        image:
+          "https://www.dir.cat/blog/wp-content/uploads/2021/05/Hiit_blog-828x430.jpg",
+        description: [
+          {
+            type: "text",
+            image: {
+              src: "https://www.dir.cat/blog/wp-content/uploads/2021/05/Hiit_blog-828x430.jpg",
+              position: "left",
+            },
+            text: "El entrenamiento HIIT (entrenamiento a intervalos de alta intensidad) se define como la realización de sesiones cortas (de entre 4 y 20 minutos) con series de entre 20 segundos hasta 4 min de ejercicios HIIT (de intensidad alta, no máxima), intercalados con períodos de recuperación o intensidad baja. ",
+          },
+          {
+            type: "subtitle",
+            text: "Beneficios de entrenar con HIIT  ",
+          },
+          {
+            type: "list",
+            list: [
+              "Acelera el metabolismo ",
+              "Mejora la salud cardiovascular",
+              "Aumenta la masa muscular ",
+              "Regulación de la glucosa y resistencia a la insulina ",
+              "Mejora de la potencia muscular y la testosterona libre ",
+            ],
+            image: {
+              src: "https://blog.bodysystems.mx/hubfs/Body%20Systems/Blog/Fitness/mayo%202019/implementar-entrenamiento-hiit-en-gimnasio-de-forma-segura.jpg",
+              position: "right",
+            },
+          },
+        ],
+      },
+      {
+        title: "Entrenamiento funcional ",
+        image:
+          "https://casaydiseno.com/wp-content/uploads/2020/01/entrenamiento-funcional-mejor-cuerpo.jpg",
+        description: [
+          {
+            type: "text",
+            text: "El entrenamiento funcional se basa en realizar ejercicios que se adaptan a los movimientos naturales del cuerpo humano para trabajar de forma global músculos y articulaciones. Una de sus principales ventajas es que se adaptan completamente a las condiciones físicas de cada persona, por eso resulta muy efectivo como entrenamiento personal. ",
+            image: {
+              src: "https://casaydiseno.com/wp-content/uploads/2020/01/entrenamiento-funcional-mejor-cuerpo.jpg",
+              position: "left",
+            },
+          },
+          { type: "subtitle", text: "BENEFICIOS DEL ENTRENAMIENTO FUNCIONAL " },
+          {
+            type: "list",
+            list: [
+              "Aumenta la autoestima ",
+              "Mitigan el dolor de espalda ",
+              "Más salud y bienestar general ",
+              "Optimiza el rendimiento deportivo ",
+              "Reduce el porcentaje de grasa corporal ",
+              "Fortalecimiento de los musculos de forma global: al trabajar los músculos en su conjunto y no de forma aislada, el entrenamiento es más eficiente y se fortalecen cadenas musculares completas con un único movimiento. ",
+
+              "Aumenta la flexibilidad y la agilidad: la movilidad general del cuerpo, tanto la articular como la muscular. ",
+
+              "Mejora la postura corporal: los ejercicios funcionales, al implicar un gran número de músculos, también trabajan los músculos abdominales y los erectores de columna, que ayudan a mantener la espalda en una posición erguida y sana. ",
+            ],
+            image: {
+              src: "https://www.mendozapost.com/files/image/295/295737/604bd70f531af.png",
+              position: "right",
+            },
           },
         ],
       },

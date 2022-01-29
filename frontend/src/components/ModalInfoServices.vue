@@ -4,11 +4,12 @@
     v-if="modalInfoService"
     persistent
     class="mx-0"
+    max-width="900"
   >
     <v-card>
       <v-sheet :color="content.color ? content.color : 'black'">
-        <v-card-title class="text-h3 white--text"
-          >{{ content.title }}
+        <v-card-title class="text-h3 white--text text-uppercase">
+          {{ content.title }}
         </v-card-title>
       </v-sheet>
       <v-divider />
@@ -71,9 +72,11 @@
             </v-col>
           </v-row>
         </v-card-text>
-        <v-card-subtitle v-if="line.type == 'subtitle'" class="text-h5">{{
-          line.text
-        }}</v-card-subtitle>
+        <v-card-subtitle
+          v-if="line.type == 'subtitle'"
+          class="text-h5 text-uppercase"
+          >{{ line.text }}</v-card-subtitle
+        >
       </div>
 
       <v-divider />

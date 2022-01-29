@@ -27,24 +27,20 @@
         <li>Aumenta tu confianza y la seguridad en ti mismo.</li>
         <li>Mejora tu salud y tu calidad de vida.</li>
         <li>Trabaja tu concentración y tu paciencia.</li>
+        <li>
+          Potencia tu coordinación y tu equilibrio haz amigos y aumenta tu lista
+          de contactos
+        </li>
       </ul>
     </v-card-text>
-    <v-card-title
-      >Potencia tu coordinación y tu equilibrio Haz amigos y aumenta tu lista de
-      contactos
-    </v-card-title>
+
     <v-card-text>
       Quieres iniciarte en las artes Marciales sin salir de casa? Aprende a
       continuación las principales características de las artes marciales más
       conocidas a nivel mundial. Te explicamos también las técnicas más
       habituales y los beneficios que aporta estas Artes Marciales. Al final de
       cada informacion encontraras un boton donde podras contactarnos y uno de
-      nuestros agentes te ayudara con la informacion que necesites. Quieres
-      iniciar un estilo de vida más saludable y cumplir tus objetivos sin salir
-      de casa. Conoce las opciones de entrenamientos personalizados que tenemos
-      a disposición. Debajo de la información de cada uno encontrarás un botón
-      para contactarnos y uno de nuestros agentes te ayudará con la información
-      que necesites.
+      nuestros agentes te ayudara con la informacion que necesites.
     </v-card-text>
     <v-divider></v-divider>
     <v-card-text>
@@ -135,6 +131,11 @@ El Judo es camino de la flexibilidad o también llamado camino de la suavidad, f
               "Superar limites",
             ],
           },
+          {
+            type: "text",
+            bold: true,
+            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+          },
         ],
         image:
           "https://muchocombate.com/wp-content/uploads/2021/03/1357592540_470223757_1-Mma-artes-marciales-mixtas-kennedy_9c818439-a803-4208-a1df-5b4f1d1aa3e8_2048x.jpg",
@@ -187,7 +188,7 @@ El Judo es camino de la flexibilidad o también llamado camino de la suavidad, f
 
 Solo necesita la aplicación de estas combinaciones, así como dar golpes con las diferentes extremidades, puede luchar tanto con los codos, las manos y los pies todo es válido cuando se trata de esta lucha. 
 
-Es un sistema de defensa muy practicado en diferentes partes del país, aunque no posee ningún tipo de evento deportivo asociado a él, las personas tienden a practicarlos como uso de defensa personal.`,
+Es un sistema de defensa muy practicado en diferentes partes del mundo, las personas tienden a practicarlos como uso de defensa personal.`,
             image: {
               position: "left",
               src: "https://mui.today/__export/1631906260936/sites/mui/img/2021/09/17/posiciones-jiu-jitsu-brasileno-principiantes.jpg_736634335.jpg",
@@ -265,8 +266,45 @@ La persona puede defenderse de un ataque violento usando palos, gas pimienta, ar
         description: [
           {
             type: "text",
+            image: {
+              src: "http://www.melider.com.mx/wp-content/uploads/2016/12/Private-security-company-training-by-french-police-02-12-10-13-30.jpg",
+              position: "left",
+            },
+            text: `El hecho de que la ley no tenga un requisito específico para el entrenamiento del guarda de seguridad, no significa que no deba completarse. 
+
+El entrenamiento de los guardas es responsabilidad de la compañía de seguridad privada y debe realizarse para maximizar el desempeño general del guarda de seguridad.  
+
+La formación de guardas de seguridad privados es una inversión que vale la pena pagar porque traerá beneficios para todos en un futuro. `,
+          },
+          { type: "subtitle", text: "VENTAJAS DE TENER PERSONAL ENTRENADO " },
+          {
+            type: "list",
+            list: [
+              "Tener el entrenamiento para tomar decisiones difíciles durante circunstancias estresantes no solo aumentará la eficiencia del desempeño del guarda de seguridad, sino que también optimizará la seguridad de las empresas en las que brinda sus servicios ",
+              "Los agentes de seguridad capacitados tienen menos probabilidades de lesionarse mientras trabajan. ",
+
+              "El entrenamiento de los guardas de seguridad hace que los guardas de seguridad se vuelvan más atentos a los detalles y estén alertas mientras trabajan. ",
+            ],
+            image: {
+              src: "https://www.elmundo.es/elmundo/imagenes/2019/02/12/5c6f9b8c9f8f9.jpeg",
+            },
+          },
+          {
+            type: "subtitle",
+            text: "Nuestro sistema de Entrenamiento ",
+          },
+          {
+            type: "text",
+            text: `Está diseñado para garantizarle a usted y a los suyos contar con guardas de seguridad profesionales. 
+
+Poseemos nuestro propio sistema de capacitación individualizado para cada uno de nuestros colaboradores, atendiendo sus necesidades de desarrollo. 
+
+Según nuestras estadísticas, los guardas de seguridad capacitados tienen mayores tasas de productividad y efectividad.  `,
+          },
+          {
+            type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Si deseas obtener nuestros servicios contactanos  `,
           },
         ],
         image:
@@ -524,13 +562,13 @@ En contraposición a otras artes marciales, el aikido pretende buscar la disuasi
             type: "list",
             list: [
               "Es un sistema que logra positivos beneficios fisicos y mentales: agudiza los reflejos, enseña a controlar la respiracion, mejora el tono muscular y la fuerza. ",
-              "brinda confianza y seguridad en el practicante asi como paciencia, tranquilidad y serenidad. ",
-              "otorga la habilidad suficiente para manejar y enfrentar circunstancias adversas. ",
-              "provoca en el practicante el control suficiente sobre las mociones. ",
-              "da al cuerpo un buen acondicionamiento y coordinacion. ",
-              "dasarrolla la condicion alerta. ",
-              "acelera las reacciones. ",
-              "se aprende a ver el peligro, a sentirlo y a enfrentarlo sin temor. ",
+              "Brinda confianza y seguridad en el practicante asi como paciencia, tranquilidad y serenidad. ",
+              "Otorga la habilidad suficiente para manejar y enfrentar circunstancias adversas. ",
+              "Provoca en el practicante el control suficiente sobre las mociones. ",
+              "Da al cuerpo un buen acondicionamiento y coordinacion. ",
+              "Desarrolla la condicion alerta. ",
+              "Acelera las reacciones. ",
+              "Se aprende a ver el peligro, a sentirlo y a enfrentarlo sin temor. ",
             ],
             image: {
               src: "https://recursos.mec.edu.py/kiwix/wikipedia_es_all_maxi/I/m/American_Kenpo_Double_Punch.jpg",
@@ -559,7 +597,7 @@ En contraposición a otras artes marciales, el aikido pretende buscar la disuasi
           },
           {
             type: "subtitle",
-            text: "BENEFICIOS DE PRACTICAR LUCHA GUECORROMANA ",
+            text: "BENEFICIOS DE PRACTICAR LUCHA GRECORROMANA ",
           },
           {
             type: "text",
@@ -603,11 +641,11 @@ Lo interesante del lima lama es que proviene de la Polinesia y se le conoce como
             image: { src: "./lima-lama-3.png" },
             list: [
               "Aprende diciplina,leatad y autocontrol de su propia energia",
-              "La practica de autodefensa le otrog fuerza en los huesos , musculos y articulaciones",
+              "La practica de autodefensa le otorga fuerza en los huesos , musculos y articulaciones",
               "Ayuda a la concentracion",
               "aporta agilidad y flexibilidad",
               "mejora la respitacion, el funcinamiento del corazón, del sistema inmunológico",
-              "Ayuda a canalizar el exceso de enrgia",
+              "Ayuda a canalizar el exceso de energia",
               "Fomenta el autoestima",
             ],
           },
