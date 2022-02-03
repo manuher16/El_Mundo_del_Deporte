@@ -14,27 +14,22 @@
       </v-sheet>
       <v-divider />
       <div v-for="(line, index) in content.description" :key="index">
-        <v-card-text v-if="line.type == 'paragraph'">
+        <div v-if="line.type == 'paragraph'">
           <v-row>
             <v-col md="8">
-              <v-card-text
-                v-for="(text, index) in line.paragraph"
-                :key="index"
-                class="my-0 py-0"
-              >
+              <v-card-text v-for="(text, index) in line.paragraph" :key="index">
                 {{ text }}
               </v-card-text></v-col
             >
             <v-col
-              md="4"
               :class="`${
-                line.image.position == 'left' ? 'order-first' : 'order-md-2'
+                line.image.position == 'left' ? 'order-md-1' : 'order-md-2'
               }`"
             >
               <v-img :src="line.image.src" width="100%" contain></v-img>
             </v-col>
           </v-row>
-        </v-card-text>
+        </div>
 
         <v-card-text
           v-if="line.type == 'text' && !line.image"
@@ -85,12 +80,7 @@
               </ul></v-col
             >
             <v-col cols="12" md="4">
-              <v-img
-                :src="line.image.src"
-                width="100%"
-                max-height=""
-                contain
-              ></v-img>
+              <v-img :src="line.image.src" width="100%" contain></v-img>
             </v-col>
           </v-row>
         </v-card-text>
