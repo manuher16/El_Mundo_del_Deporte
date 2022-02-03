@@ -3,7 +3,7 @@
     <v-app-bar app color="" dark>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <div class="container-logo">
-        <a href="/">
+        <router-link to="/" class="router-link">
           <v-img
             src="/logo.png"
             height="40"
@@ -11,11 +11,13 @@
             class="mx-0 px-0"
             contain
           />
-        </a>
+        </router-link>
       </div>
       <v-spacer></v-spacer>
 
-      <DropMenu label="Conocenos" button href="about" />
+      <router-link to="/about" class="router-link text-overline white--text"
+        >Conocenos</router-link
+      >
     </v-app-bar>
     <v-navigation-drawer
       v-model="drawer"
@@ -44,20 +46,20 @@
 
       <v-list>
         <v-list-item-group v-model="group" active-class="">
-          <v-list-item
-            v-for="(item, index) in drawerMenu"
-            :key="index"
-            :href="item.href"
-          >
-            <v-list-item-icon>
-              <v-icon large>{{ item.icon }}</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-              <v-list-item-title class="text-h6">{{
-                item.name
-              }}</v-list-item-title>
-            </v-list-item-content>
-          </v-list-item>
+          <div v-for="(item, index) in drawerMenu" :key="index">
+            <router-link :to="item.href" class="router-link">
+              <v-list-item>
+                <v-list-item-icon>
+                  <v-icon large>{{ item.icon }}</v-icon>
+                </v-list-item-icon>
+                <v-list-item-content>
+                  <v-list-item-title class="text-h6">{{
+                    item.name
+                  }}</v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+            </router-link>
+          </div>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
@@ -65,7 +67,6 @@
 </template>
 
 <script>
-import DropMenu from "../Home/dropMenu.vue";
 export default {
   data: () => ({
     drawerMenu: [
@@ -104,19 +105,21 @@ export default {
       {
         name: "Sobre Nosotros",
         href: "/about",
-        icon: "mdi-plus",
+        icon: "mdi-handshake",
       },
     ],
     group: 0,
     drawer: false,
   }),
-  components: {
-    DropMenu,
-  },
+  components: {},
 };
 </script>
 
 <style>
+.router-link {
+  all: none;
+  text-decoration: none;
+}
 .heading-drawner-menu {
   display: flex;
   justify-content: space-between;

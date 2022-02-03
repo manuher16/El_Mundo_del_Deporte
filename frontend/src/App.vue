@@ -3,7 +3,9 @@
     <Navbar />
     <v-main>
       <ButtonContact />
-      <router-view />
+      <v-container fluid>
+        <router-view />
+      </v-container>
     </v-main>
     <Footer />
     <WelcomeModal />
