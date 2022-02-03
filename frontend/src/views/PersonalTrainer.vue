@@ -71,6 +71,7 @@
       <v-col></v-col>
       <v-col></v-col>
     </v-row>
+    <v-divider></v-divider>
     <v-card-text>
       <ListTrainer :items="items" />
     </v-card-text>

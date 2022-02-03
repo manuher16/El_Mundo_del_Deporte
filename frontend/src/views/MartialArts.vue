@@ -42,6 +42,12 @@
       cada informacion encontraras un boton donde podras contactarnos y uno de
       nuestros agentes te ayudara con la informacion que necesites.
     </v-card-text>
+    <v-card-text>
+      A la hora de elegir un arte marcial es muy importante tener en cuenta la
+      opinión del niño o niña. En caso contrario cabe la posibilidad de que no
+      quiera practicarlo y la búsqueda haya sido en bano. La mejor motivación es
+      la de hacer algo que nos guste y eso también funciona con los peques.
+    </v-card-text>
     <v-divider></v-divider>
     <v-card-text>
       <ListMartialArts :items="items" />

@@ -47,6 +47,13 @@
       </v-row>
     </v-card-text>
     <v-card-text>
+      A la hora de elegir un idioma es muy importante tener en cuenta la opinión
+      del niño o niña. En caso contrario cabe la posibilidad de que no quiera
+      practicarlo y la búsqueda haya sido en bano. La mejor motivación es la de
+      hacer algo que nos guste y eso también funciona con los peques.
+    </v-card-text>
+    <v-divider />
+    <v-card-text>
       <ListLanguage :items="items" />
     </v-card-text>
   </v-card>
@@ -61,6 +68,16 @@ export default {
         title: "Ingles",
         description: [
           {
+            type: "text",
+            image: {
+              position: "left",
+              src: "",
+            },
+            text: `El inglés es el idioma más exigido en las compañías y empresas, es por esto que se convirtió en la principal herramienta para ampliar las metas profesionales y personales ademas mejorar nuestro acceso a la educación. Nos permitirá no sólo estudiar en el extranjero sino también  acceder a información académica como ensayos y textos científicos publicados en inglés. 
+
+expresarte frente a otros de forma fluída, explicar tus ideas sin tropiezos, con orden y claridad. Es decir, aprendiendo el idioma también potenciamos otras habilidades. `,
+          },
+          {
             type: "subtitle",
             text: "Porque aprender ingles?",
           },
@@ -71,32 +88,14 @@ export default {
               src: "https://upagu.edu.pe/es/wp-content/uploads/2020/05/tapa-oficial-web-ingles.jpg",
             },
             list: [
-              "Puedes estudiar en el extranjero Estudiar en el extranjero tiene muchas ventajas, pero ¿cómo se relaciona con hablar inglés? Cuando hablamos de licenciaturas y posgrados en el extranjero, a veces tendemos a pensar en universidades e institutos estadounidenses y británicos, sin embargo, y a pesar de que hablar inglés efectivamente te abre sus puertas, también puedes conseguir oportunidades en escuelas de otros países o regiones de habla no inglesa.",
-              "Mejoras tus oportunidades laborales ¿Sabías que 25% de trabajos requieren de personas que hablen inglés para interactuar con personas de otros países? Así lo asegura una encuesta realizada por Reuters. Pero, ¿por qué inglés y no otro idioma? Bueno, porque más de 375 millones de personas hablan inglés para negocios aunque este no sea su idioma materno.",
+              "Aumenta la creatividad. ",
+              "Mejora el razonamiento.",
+              "Ayuda a la resolución de problemas. ",
+              "Mejoras las oportunidades en educacion y ambit laboral. ",
+              "Aprendes de otras culturas. ",
             ],
           },
-          {
-            type: "list",
-            list: [
-              `Te da acceso a miles de documentos 
 
-La mayor parte de los contenidos en internet son en inglés. Estamos hablando de alrededor de un 25.2% , respecto al casi 8% que hay en español. A pesar de que el contenido escrito puede traducirse desde el navegador, el resultado no es el mejor en cuanto a gramática. `,
-              `Fortalece tu cerebro 
-
-Esto es difícil de comprender hasta que no lo experimentas por ti mismo, pero al dominar otra lengua, tu cerebro trabaja de forma distinta. Diversos estudios han comprobado que el cerebro bilingüe es capaz de concentrarse mejor, aprender con mayor facilidad y dedicarse a varias tareas a la vez. `,
-              `Te ayuda a empatizar 
-
-Aprender una lengua es conocer otra cultura. Esa es otra de las ventajas de saber inglés más destacadas porque ayuda al entendimiento, la aceptación y el respeto de la diversidad del mundo`,
-
-              `Tienes más opciones de turismo 
-
-Si bien puedes viajar a cualquier parte del mundo sin obligación de saber inglés o la lengua local, hablar inglés te facilita las cosas, empezando por los vuelos y los aeropuertos. `,
-              `El mayor beneficio de hablar inglés: cumplir tus sueños`,
-            ],
-            image: {
-              src: "https://www.buscouniversidad.com.ar/orientacion/wp-content/uploads/2021/04/No-tendr%C3%A1s-que-viajar.png",
-            },
-          },
           {
             type: "text",
             bold: true,
@@ -116,44 +115,16 @@ Si bien puedes viajar a cualquier parte del mundo sin obligación de saber ingl�
           },
           {
             type: "text",
-            text: `Podrás trabajar en un país que no deja de innovar. 
-
-Según el Índice Mundial de Innovación, China se coloca entre las 20 primeras economías innovadoras del mundo, ocupando el puesto 17. 
-
-El Chino Mandarín es la segunda lengua en muchos países asiáticos. 
-
-Como en China, este idioma se habla también en otros países como Taiwán, Birmania, Camboya, Filipinas, Indonesia, Malasia, Singapur, Tailandia. Por lo que, si te surge una oportunidad de trabajo allí, podrás adaptarte mucho más rápido. 
-
- 
-
-Te convierte en un candidato muy atractivo para las empresas que trabajan con China. 
-
-La burocracia, las relaciones entre socios y clientes, o el desarrollo de una correcta política de recursos humanos hacen muy necesario el conocimiento del chino mandarín para el éxito de cualquier empresa que trabaja con China. 
-
-Es el idioma más hablado del planeta. 
-
-El chino mandarín es el idioma más hablado en el mundo. Lo hablan más de 1000 millones de personas nativas. `,
-
+            text: `Es el idioma más hablado del planeta. El chino mandarín es el idioma más hablado en el mundo. Lo hablan más de 1000 millones de personas nativas, como en China, este idioma se habla también en otros países como Taiwán, Birmania, Camboya, Filipinas, Indonesia, Malasia, Singapur, Tailandia. `,
             image: {
               position: "left",
               src: "https://larepublica.pe/resizer/RYDoBjoBA3hDeYMtbZ16JRXhR6A=/1250x735/top/smart/arc-anglerfish-arc2-prod-gruporepublica.s3.amazonaws.com/public/WFMQ665CZZGBPFE4OS27NUFRKM.jpg",
             },
           },
+          { type: "subtitle", text: "Beneificios de aprender otro idioma" },
           {
             type: "text",
-            text: `La población china es la principal consumidora del sector de lujo. 
-
-Según un estudio de Nielsen, 350 millones de chinos son potenciales clientes de lujo. De hecho, los millennials chinos son, según el último informe de consumo de Bain & Co los que más gastan en productos de lujo del mundo. Así que si quieres dedicarte al sector de moda y lujo, ya sabes! 
-
-Amplía tu agenda de contactos 
-
-China tiene la mayor población del mundo con aproximadamente 1,386 miles de millones (2017). Así pues, aprender chino mandarín puede darte acceso a comunicarte con mucha más gente 
-
-Ejercita tu mente y trabaja mejor 
-
-Según diferentes estudios, está comprobado que aprender chino mandarín nos permite trabajar a mayor profundidad, ya que ejercitamos los dos hemisferios del cerebro. 
-
-El mayor beneficio de hablar Mandarin: “cumplir tus sueños” `,
+            text: `Aprender chino mandarín puede darte acceso a comunicarte con mucha más gente, ejercita tu mente y trabaja mejor a mayor profundidad, ya que ejercitamos los dos hemisferios del cerebro.  `,
             image: {
               position: "right",
               src: "https://academiaeuropea.com/principal/wp-content/uploads/2020/12/Porque-es-el-mejor-momento-para-aprender-chino-1080x675-1.gif",
@@ -173,51 +144,28 @@ El mayor beneficio de hablar Mandarin: “cumplir tus sueños” `,
         title: "Español",
         description: [
           {
-            type: "subtitle",
-            text: "PORQUE APRENDER ESPAÑOL? ",
-          },
-          {
             type: "text",
-            text: `Es una de las lenguas más habladas. \n
-
-Se estima que el español es la lengua materna de más de 400 millones de personas en todo el mundo, lo que equivale a aproximadamente el seis por ciento de la población mundial. Por este motivo, si nos basamos en el número de hablantes nativos, el español es oficialmente la segunda lengua más hablada, posicionándose por delante del inglés. 
-
- 
-
-Mejorará tus perspectivas de empleo.
-
-En el mercado mundial actual, el conocimiento de un segundo idioma puede ser un activo tanto para las empresas como para los empleados. Las empresas siempre están interesadas en contar con trabajadores que puedan ayudarles con el comercio internacional, y el español es especialmente valioso en la situación actual. `,
-
             image: {
               position: "left",
               src: "https://www.salminter.com/blog/wp-content/uploads/2019/07/260.jpg",
             },
+            text: "Es una de las lenguas más habladas. Se estima que el español es la lengua materna de más de 400 millones de personas en todo el mundo, lo que equivale a aproximadamente el seis por ciento de la población mundial. El idioma español (también llamado castellano) es una lengua romance del grupo ibérico. Es uno de los seis idiomas oficiales de la Organización de las Naciones Unidas. ",
           },
           {
-            type: "text",
+            type: "subtitle",
+            text: "PORQUE APRENDER ESPAÑOL? ",
+          },
+          {
+            type: "list",
             image: {
               position: "right",
-              src: "https://www.salminter.com/blog/wp-content/uploads/2016/01/123.jpg",
+              src: "https://arche-ele.com/wp-content/uploads/2020/11/paises-hispanohablantes.png",
             },
-            text: `Disfrutarás más de tus viajes .
-
-Viajar es una de las experiencias más enriquecedoras que puedas tener, pero la experiencia será mucho mejor si hablas español. 
-
-Podrías trabajar o estudiar en el extranjero .
-
-Viajar por placer es apasionante, pero aprender español también te abre la posibilidad de trabajar en un país de habla hispana o de estudiar en una institución académica con sede española. Salir de tu zona de confort y pasar largas temporadas en un país extranjero puede ayudarte a que te desarrolles profesional y personalmente. 
-
-Puede mejorar tu dominio de la lengua materna .
-
-Lo creas o no, los estudios han demostrado que aprender un segundo idioma puede hacer que el estudiante mejore el dominio de su lengua materna. Si lo piensas un poco, esto tiene mucho sentido, ya que aprender un segundo idioma requiere que la persona reflexione sobre la teoría linguística, o ‘las reglas’. 
-
- 
-
-Fortalece tu cerebro.
-
-Esto es difícil de comprender hasta que no lo experimentas por ti mismo, pero al dominar otra lengua, tu cerebro trabaja de forma distinta. Diversos estudios han comprobado que el cerebro bilingüe es capaz de concentrarse mejor, aprender con mayor facilidad y dedicarse a varias tareas a la vez. 
-
-El mayor beneficio de hablar Español es“cumplir tus sueños” `,
+            list: [
+              "Aprendes de nuevas culturas ",
+              "Disfrutas mas al viajar",
+              "Te puedes relacionar con mas personas. ",
+            ],
           },
           {
             type: "text",
@@ -233,35 +181,21 @@ El mayor beneficio de hablar Español es“cumplir tus sueños” `,
         title: "Italiano",
         description: [
           {
-            type: "subtitle",
-            text: "Porque es el idioma del arte ",
-          },
-          {
             type: "text",
-            text: `El italiano es la lengua de Dante, Petrarca y Boccaccio, los tres grandes escritores italianos, pero además es el idioma del arte, la historia, como de las ciencias, la gastronomía y el amor. Las mujeres italianas son conocidas por su belleza y los hombres italianos por su masculinidad, hablar italiano te dará muchas más oportunidades en el amor, si lo que buscas es conocer a tu media naranja en Italia. 
-
-Para trabajar.
-
-El idioma italiano es uno de los idiomas oficiales de la Unión Europea, con lo que aprender italiano te abrirá las puertas a muchos organismos internacionales, y también la posibilidad de trabajar en diferentes empresas italiana tan famosas como: FIAT, Alitalia, Pirelli, Olivetti, Ducatti o Mediaset. Una economía enfocada principalmente a tres sectores, el turismo, la industria automovilística y la moda. Así que si trabajas o quieres trabajar en alguno de esos sectores, necesitarás en algún momento de tu vida tener nociones de italiano. `,
-
+            text: "El italiano es la lengua de Dante, Petrarca y Boccaccio, los tres grandes escritores italianos, pero además es el idioma del arte, la historia, como de las ciencias, la gastronomía y el amor, el italiano deriva del latín, como otras lenguas romances como el español, catalán, portugués, francés y rumano y otras más. ",
             image: {
               position: "left",
               src: "https://womenaliaimages.blob.core.windows.net/womenaliathumbnails/28686b9e3a29c24dc6c32aeec9b80aca5DB323/28686b9e3a29c24dc6c32aeec9b80aca5DB323_xl.png",
             },
           },
           {
+            type: "subtitle",
+            text: "Porque es el idioma del arte ",
+          },
+
+          {
             type: "text",
-            text: `Para ir de vacaciones.
-
-Todos tenemos algún conocimiento del Imperio Romano o del Renacimiento Italiano, o bien sea a través de las películas y series que hemos visto, o bien por el estudio de la historia en el colegio, instituto o universidad. Es por ello, que en nuestras retinas se guardan monumentos tan fastuosos como el Coliseo, la Torre de Pisa, el Vaticano o la ciudad de Venecia. Nunca es mal momento para escaparse a un país que recibe millones de visitantes al año y conocer sus mejores lugares. Visitar los encantos de Italia hablando italiano será mucho más enriquecedor. 
-
- 
-
-Por el mundo de la moda, el diseño y el arte. 
-
-Si te gusta el diseño,en todas sus vertientes, Italia es tu país. No sólo hablamos de moda, que también, pero el diseño abarca marcas de coches como Fiat o el interiorismo como Magis. Ciudades como Milán o Roma son los máximos exponentes de esta faceta de los italianos, donde además son centros industriales de la moda "made in Italy" y el "prêt-à-porter", competiendo mano a mano con los franceses. 
-
-Para aprender mas sobre su la gastronomia, cine, musica Italiana y disfrutarla en su maximo esplendor  `,
+            text: `El idioma italiano es uno de los idiomas oficiales de la Unión Europea, con lo que aprender italiano te abrirá las puertas a muchos organismos internacionales, y también la posibilidad de trabajar en diferentes sectores el turismo, la industria automovilística y la moda asi mismo a nivel educativo.  `,
             image: {
               position: "right",
               src: "https://www.superprof.co/blog/wp-content/uploads/2019/08/Parli-Italiano-4.png",
@@ -281,38 +215,24 @@ Para aprender mas sobre su la gastronomia, cine, musica Italiana y disfrutarla e
         title: "Frances",
         description: [
           {
-            type: "subtitle",
-            text: "PORQUE HABLAR FRANCES? ",
-          },
-          {
             type: "text",
-            text: `Es la cuarta lengua más hablada en el Mundo. 
-
-Más de 200 millones de personas hablan francés en los 5 continentes, 68 estados y gobiernos se declaran francófonos por todo el mundo y en 33 países el francés es su idioma oficial. 
-
-Tienes mayor acceso al mercado laboral. 
-
-Aprender francés te ayudará a mejorar tus oportunidades laborales y desarrollar tu carrera profesional. `,
+            text: `Es la cuarta lengua más hablada en el mundo, el francés es idioma oficial de muchos organismos internacionales como la Cruz Roja, la ONU, la Unesco, el FMI y la Unión Europea. Además las tres ciudades con sedes de instituciones europeas son francófonas: Luxemburgo, Bruselas y Estrasburgo.  `,
             image: {
               position: "left",
               src: "https://www.mueroporviajar.com/wp-content/uploads/2015/10/12828114_s-e1563560606315.jpg",
             },
           },
           {
-            type: "text",
-            text: `Es la lengua de las Relaciones Internacionales. 
-
-Te abre las puertas del Mundo. El francés es idioma oficial de muchos organismos internacionales como la Cruz Roja, la ONU, la Unesco, el FMI, o la Unión Europea. Además las tres ciudades con sedes de instituciones europeas son francófonas: Luxemburgo, Bruselas y Estrasburgo. Así que si quieres hacer carrera diplomática o de relaciones públicas, también te será útil. 
-
-La lengua del amor. 
-
-Aprender francés conlleva, primero, el placer de aprender una lengua bella, rica y melódica, a menudo llamada la lengua del amor. El francés es también una lengua analítica que estructura el pensamiento y desarrolla el espíritu crítico, lo cual es muy útil en las discusiones o en las negociaciones. 
-
-Una lengua para aprender otras lenguas. 
-
-Aprender francés ayuda a aprender otras lenguas, en particular lenguas latinas (español, italiano, portugués o rumano), pero también inglés, ya que el francés ha proporcionado más de un 50% del vocabulario inglés actual. 
-
-El mayor beneficio de hablar Frances es“cumplir tus sueños” `,
+            type: "subtitle",
+            text: "PORQUE HABLAR FRANCES? ",
+          },
+          {
+            type: "paragraph",
+            paragraph: [
+              "Es una lengua analítica que estructura el pensamiento. ",
+              "Desarrolla el espíritu crítico, lo cual es muy útil en las discusiones o en las negociaciones.  ",
+              "Es una lengua para aprender otras lenguas. Aprender francés ayuda a aprender otras lenguas, en particular lenguas latinas (español, italiano, portugués o rumano). ",
+            ],
             image: {
               position: "right",
               src: "https://viajerosinspirandoviajeros.com/wp-content/uploads/2018/09/hablar-frances-extranjero-aprender-idioma-frases-significado-pronunciacion.jpg",
@@ -332,40 +252,23 @@ El mayor beneficio de hablar Frances es“cumplir tus sueños” `,
         title: "Portugues",
         description: [
           {
-            type: "subtitle",
-            text: "PORQUE HABLAR PORTUGUES?",
-          },
-          {
             type: "text",
-            text: `Destaca entre la multitud.
-
-Aunque cada vez más personas decide aprender un segundo o tercer idioma, pocos eligen el portugués, a pesar de ser un idioma muy hablado. Si lo dominas, contarás con una destreza única que te distinguirá de los demás. 
-
-. Es relativamente fácil de aprende. 
-
-Obviamente, aprender cualquier idioma requiere de mucho trabajo, pero el portugués es relativamente fácil de aprender. No hace falta aprender un nuevo alfabeto, como habría que hacer, por ejemplo, con el ruso, el japonés o el árabe. Y, si ya hablas español o francés, el portugués comparte mucho vocabulario con esos dos idiomas. También tiene una estructura similar a la del inglés. 
-
-Es una puerta de acceso a un tercer (y a un cuarto) idioma 
-
-Por otro lado, aprender portugués como segundo idioma hace que sea más fácil aprender el resto de las lenguas romances. Se puede seguir con el italiano, el francés o incluso el rumano. Al ser idiomas que también evolucionaron a partir del latín, su aprendizaje resulta más sencillo. `,
+            text: `El idioma portugués forma parte de las llamadas lenguas romances, al igual que el francés y el español. Estas son denominadas de esta forma debido a que surgieron del latín vulgar y evolucionaron a través de los siglos para transformarse en los idiomas que hoy conocemos.  `,
             image: {
               position: "left",
               src: "https://static.portugues.com.br/2020/09/portugues.jpg",
             },
           },
           {
-            type: "text",
-            text: `Es uno de los idiomas más hablados en Internet. 
-
-El portugués es el quinto idioma más utilizado en Internet, ya que los usuarios de habla portuguesa y las páginas escritas en portugués están aumentando rápidamente. Hay muchas oportunidades en el mundo digital para los aspirantes a creadores de contenido y escritores que sean capaces de expresarse perfectamente en portugués; además de amplias audiencias (y empleadores) que demandan esos contenidos, sobre todo en Brasil. 
-
-Para que tu currículum sobresalga. 
-
-Emociona a tu futuro empleador con un currículum que incorpore el dominio de un idioma poco habitual, aunque demandado, como el portugués. Tu dominio del portugués demostrará de inmediato que te entusiasma aprender y asumir riesgos. A las empresas de una mayoría de sectores les encantará que puedas 
-
-Para hacer amigos. 
-
-El aprendizaje de un idioma es una experiencia inmersiva, así que también lograrás hacer amigos rápido. Tus compañeros de clase o maestros se convertiran en tu familia durante la experiencia. `,
+            type: "subtitle",
+            text: "PORQUE HABLAR PORTUGUES?",
+          },
+          {
+            type: "paragraph",
+            paragraph: [
+              "Una razón que siempre debes tener en cuenta es que, al aprender un idioma nuevo, obtendrás muchos beneficios para el rendimiento de tu mente, tanto en la memoria como en el desarrollo cognitivo.  ",
+              "Apredes habilidades personales que te ayudan a desenvolverte socialmente. ",
+            ],
             image: {
               position: "right",
               src: "https://www.vortexmag.net/wp-content/uploads/2021/05/iStock-509370646-portugues-min.jpg",

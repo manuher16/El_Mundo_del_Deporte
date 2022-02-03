@@ -3,6 +3,7 @@
     <v-card-title>
       <v-subheading> Salud </v-subheading>
     </v-card-title>
+    <v-divider />
     <v-card-text>
       <ListHealth :items="items" />
     </v-card-text>

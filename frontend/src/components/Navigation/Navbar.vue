@@ -101,6 +101,11 @@ export default {
         href: "/otros",
         icon: "mdi-plus",
       },
+      {
+        name: "Sobre Nosotros",
+        href: "/about",
+        icon: "mdi-plus",
+      },
     ],
     group: 0,
     drawer: false,

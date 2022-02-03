@@ -43,6 +43,12 @@
         </v-col>
       </v-row>
     </v-card-text>
+    <v-card-text>
+      A la hora de elegir es muy importante tener en cuenta la opinión del niño
+      o niña. En caso contrario cabe la posibilidad de que no quiera practicarlo
+      y la búsqueda haya sido en bano. La mejor motivación es la de hacer algo
+      que nos guste y eso también funciona con los peques.
+    </v-card-text>
     <v-divider />
     <v-card-text>
       <ListMusic :items="items" />
