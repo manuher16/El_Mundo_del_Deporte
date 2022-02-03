@@ -2,7 +2,7 @@
   <div class="text-center drop_menu">
     <v-menu offset-y open-on-hover class="">
       <template v-slot:activator="{ on, attrs }">
-        <v-btn
+        <router-link
           color=""
           dark
           v-bind="attrs"
