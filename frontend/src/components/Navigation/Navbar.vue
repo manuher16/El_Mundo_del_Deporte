@@ -93,6 +93,11 @@ export default {
         icon: "mdi-gavel",
       },
       {
+        name: "Recreacion para Empresas",
+        href: "/deporte-extremos",
+        icon: "mdi-domain",
+      },
+      {
         name: "Deportes Extremos y al aire libre",
         href: "/deporte-extremos",
         icon: "mdi-close",

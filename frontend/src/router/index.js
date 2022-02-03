@@ -47,6 +47,11 @@ const routes = [
     component: () => import('../views/LegalAdvice.vue')
   },
   {
+    path: '/deporte-extremos',
+    name: 'Legal',
+    component: () => import('../views/ExtremeSports.vue')
+  },
+  {
     path: '/about',
     name: 'About',
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')

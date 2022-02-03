@@ -60,6 +60,8 @@
         opinión del niño o niña. En caso contrario cabe la posibilidad de que no
         quiera practicarlo y la búsqueda haya sido en bano. La mejor motivación
         es la de hacer algo que nos guste y eso también funciona con los peques.
+        Deseas practicar otro baile o danza, que no se encuentra dentro de
+        nuestras categorias, contactanos para solicitar lo que necesites.
       </v-card-text>
     </v-card-text>
     <v-divider />
@@ -127,7 +129,7 @@ Los expertos recomiendan iniciar con esta danza clásica a los tres o cuatro añ
             type: "text",
             image: {
               position: "left",
-              src: "https://dancemotion.es/wp-content/uploads/2020/03/danza-contemporanea-caracteristicas-e1583701923776.jpg",
+              src: "https://tiposdebailes.net/wp-content/uploads/2019/09/danza-contemporanea-baile.jpg",
             },
             text: `Mientras el ballet clásico apostaba por las formas estilizadas y convencionales, la danza contemporánea irrumpió con formas más agresivas, que representaran tanto lo hermoso como lo feo de la vida. Fue en contra de los cánones tradicionales, al no requerir de un atuendo homogéneo, o incorporar superficies y ambientes diferentes a la coreografía.`,
           },
@@ -172,6 +174,10 @@ Los expertos recomiendan iniciar con esta danza clásica a los tres o cuatro añ
           { type: "subtitle", text: "Beneficios de la danza urbana " },
           {
             type: "text",
+            image: {
+              position: "right",
+              src: "https://yuupiyu.com/wp-content/uploads/2019/03/Baile-Urbano.jpg",
+            },
             text: `Con este tipo de baile se desarrollan  
 
 la coordinación  
@@ -181,10 +187,6 @@ la coordinación
  la agilidad de movimientos,  
 
 el equilibrio y la flexibilidad. `,
-            image: {
-              position: "right",
-              src: "https://dancemotion.es/wp-content/uploads/2020/09/baile-urbano.jpg",
-            },
           },
           {
             type: "text",
@@ -662,11 +664,11 @@ Se lo asocia a una forma de bailar “sensual” y provocativa, con los cuerpos 
           {
             type: "text",
             bold: true,
-            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+            text: `Entrena con coreografos concidos a nivel nacional e internacional. Contactanos para obtener más información.  `,
           },
         ],
         image:
-          "http://3.bp.blogspot.com/-hFGW0hx0l6U/VDsJsfdW7xI/AAAAAAAAPwI/NMmPCBndXuc/s1600/coreografia-de-15-grupal.jpg",
+          "https://www.sonica.mx/u/fotografias/m/2021/10/7/f608x342-11807_41530_0.jpg",
         href: "",
       },
     ],

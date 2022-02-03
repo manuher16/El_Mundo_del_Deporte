@@ -134,7 +134,37 @@ export default {
       },
       {
         title: "Psicologo",
-        description: [],
+        description: [
+          {
+            type: "text",
+            text: "El psicólogọ o psicologa es un profecional de la salud mental que interviene en varios de los dominios de la sociedad (educación, salud, social, trabajo, deporte, etc.) para preservar, mantener o mejorar el bienestar o la calidad de vida del individuo y su salud psíquica, desarrollar sus capacidades o favorecer su adecuada convivencia social. ",
+            image: {
+              position: "left",
+              src: "https://inpsique.com/wp-content/uploads/2020/10/Diferencias-entre-psico%CC%81logo-y-psiquiatra.-Inpsique.jpg",
+            },
+          },
+          { type: "subtitle", text: "Beneficios de psicologo en casa " },
+          {
+            type: "list",
+            image: {
+              position: "right",
+              src: "https://t1.pb.ltmcdn.com/es/posts/2/9/1/como_saber_cuando_ir_al_psicologo_5192_600.jpg",
+            },
+            list: [
+              "Da apoyo emocional.",
+              "Promueve el autoconocimiento. ",
+              "Otorga herramientas para manejar conflictos. ",
+              "Permite encontrar soluciones a los problemas. ",
+              "Ayuda a eliminar posibles trastornos. ",
+              "Mejora la calidad de vida. ",
+            ],
+          },
+          {
+            type: "text",
+            text: "Necesitas asistencia medica sin salir de casa. Conoce los beneficios que puedes obtener con un medico a domicilio. Pulsa el boton  para contactarnos y uno de nuestros agentes te ayudará con la información que necesites. ",
+            bold: true,
+          },
+        ],
         image:
           "https://resizer.glanacion.com/resizer/rJEUB4BgT_3Dr4gkJsfbWZoiL08=/879x586/smart/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/X2J6WOZGXRGIRBUHTWGZ5XRK2U.jpg",
         href: "",

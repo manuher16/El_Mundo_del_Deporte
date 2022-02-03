@@ -8,23 +8,28 @@
   >
     <v-card>
       <v-sheet :color="content.color ? content.color : 'black'">
-        <v-card-title class="text-h3 white--text text-uppercase">
+        <v-card-text class="text-h5 white--text text-uppercase">
           {{ content.title }}
-        </v-card-title>
+        </v-card-text>
       </v-sheet>
       <v-divider />
       <div v-for="(line, index) in content.description" :key="index">
         <div v-if="line.type == 'paragraph'">
-          <v-row>
-            <v-col md="8">
-              <v-card-text v-for="(text, index) in line.paragraph" :key="index">
+          <v-row class="ma-2">
+            <v-col md="8" class="">
+              <v-card-text
+                v-for="(text, index) in line.paragraph"
+                :key="index"
+                class="my-1 py-0"
+              >
                 {{ text }}
               </v-card-text></v-col
             >
             <v-col
+              md="4"
               :class="`${
-                line.image.position == 'left' ? 'order-md-1' : 'order-md-2'
-              }`"
+                line.image.position == 'left' ? 'order-first' : 'order-2'
+              } `"
             >
               <v-img :src="line.image.src" width="100%" contain></v-img>
             </v-col>

@@ -199,6 +199,11 @@ La hipertrofia busca el crecimiento del musculo y de las fibras musculares por l
               position: "right",
             },
           },
+          {
+            type: "text",
+            bold: true,
+            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+          },
         ],
       },
       {
@@ -233,6 +238,11 @@ La hipertrofia busca el crecimiento del musculo y de las fibras musculares por l
               src: "https://www.mendozapost.com/files/image/295/295737/604bd70f531af.png",
               position: "right",
             },
+          },
+          {
+            type: "text",
+            bold: true,
+            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
       },
