@@ -3,12 +3,64 @@
     <v-card-title>
       <v-subheading> Deportes Extremos </v-subheading>
     </v-card-title>
-    <v-card-text>
-      A la hora de elegir un deporte extremo es muy importante tener en cuenta
-      la opinión del niño o niña. En caso contrario cabe la posibilidad de que
-      no quiera practicarlo y la búsqueda haya sido en bano. La mejor motivación
-      es la de hacer algo que nos guste y eso también funciona con los peques.
+    <v-divider></v-divider>
+    <v-card-subtitle class="text-h6">
+      ¿Qué nos lleva a practicar los deportes extremos?
+    </v-card-subtitle>
+
+    <v-card-text class="mx-0">
+      <v-row class="mx-0">
+        <v-col md="3">
+          <v-img
+            src="https://us.123rf.com/450wm/alanpoulson/alanpoulson1410/alanpoulson141000203/32894688-una-silueta-de-un-hombre-montado-en-una-bicicleta-de-monta%C3%B1a-por-una-colina-.jpg?ver=6"
+          ></v-img>
+        </v-col>
+        <v-col
+          >A la hora de elegir un deporte extremo es muy importante tener en
+          cuenta la opinión del niño o niña. En caso contrario cabe la
+          posibilidad de que no quiera practicarlo y la búsqueda haya sido en
+          bano. La mejor motivación es la de hacer algo que nos guste y eso
+          también funciona con los peques. Nos hacen sentir vivos. Nos atrevemos
+          a afrontar unas situaciones comprometidas que hacen que la mente se
+          vea obligada a centrarse plenamente en el momento presente. Las
+          emociones son tan intensas que se experimenta; miedo, alegría,
+          sorpresa… muchos pueden pensar que es una locura, pero quién no lo ha
+          practicado, no podrá comprender la intensidad de éstas sensaciones. El
+          deseo de triunfo unido a la posibilidad de lograr el éxito con peligro
+          son muy atractivos para algunas personas.
+        </v-col>
+      </v-row>
     </v-card-text>
+    <v-card-text>
+      <v-row>
+        <v-col>
+          <v-card-subtitle class="text-h6"
+            >BENEFICIOS DE PRACTICAR DEPORTES EXTREMOS
+          </v-card-subtitle>
+          <ul>
+            <li>Aumenta tu capacidad de mantenerte concentrado.</li>
+            <li>Mejorar tu habilidad para manejar el miedo.</li>
+            <li>Trabaja diferentes músculos.</li>
+            <li>Aumente la confianza en ti mismo.</li>
+            <li>Mejorar tu estado físico.</li>
+            <li>Fortalece la interacción social.</li>
+          </ul>
+        </v-col>
+        <v-col md="3">
+          <v-img
+            src="https://p0.pikist.com/photos/393/368/rappelling-wall-rope-extreme-sports-sport-outdoors-men-adventure-mountain-climbing.jpg"
+          ></v-img>
+        </v-col>
+      </v-row>
+    </v-card-text>
+    <v-card-text
+      >A la hora de elegir un deporte es muy importante tener en cuenta la
+      opinión del adolecente. En caso contrario cabe la posibilidad de que no
+      quiera practicarlo y la búsqueda haya sido en bano. La mejor motivación es
+      la de hacer algo que nos guste y eso también funciona con ellos. Deseas
+      practicar otro deporte, que no se encuentra dentro de nuestras categorias,
+      contactanos para solicitar lo que necesites.</v-card-text
+    >
     <v-divider />
     <v-card-text>
       <ListExtremeSports :items="items" />

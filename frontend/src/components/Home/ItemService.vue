@@ -1,16 +1,28 @@
 <template>
   <v-hover v-slot="{ hover }">
     <v-card
-      height="auto"
-      widht="350px"
-      flat
-      class="px-0"
       @click="selectItemForModal"
+      widht="350px"
+      class="px-0"
+      elevation="10"
+      flat
+      color="transparent"
     >
       <v-expand-transition>
-        <v-sheet class="d-flex image_card" width="100%" height="250">
+        <v-sheet
+          class="d-flex image_card rounded-lg"
+          color="transparent"
+          width="100%"
+          height="250"
+        >
           <v-img
-            class="d-flex aling-center justify-center image-item"
+            class="
+              d-flex
+              aling-center
+              justify-center
+              image-item image-scale
+              rounded
+            "
             :src="
               item.image
                 ? `${item.image}`
@@ -20,15 +32,6 @@
             :aspect-ratio="hover ? 1.7 : 1"
           >
             <div class="title__card font-weight-black">{{ item.title }}</div>
-            <v-expand-transition>
-              <v-card-text v-show="hover" class="">
-                Las artes marciales mixtas (conocida frecuentemente por sus
-                siglas en inglés MMA, de Mixed martial arts) son la combinación
-                de técnicas provenientes de distintas artes marciales y deportes
-                de combate, generalmente se usa para la competición en el
-                deporte de combate pero también para la defensa personal.
-              </v-card-text>
-            </v-expand-transition>
           </v-img>
         </v-sheet>
       </v-expand-transition>
@@ -72,6 +75,9 @@ export default {
 .image_card {
 }
 .image-item:hover {
-  scale: 1.5;
+  transform: scale(1.05);
+}
+.rounded-card {
+  border-radius: 10px !important;
 }
 </style>

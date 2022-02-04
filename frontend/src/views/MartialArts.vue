@@ -3,35 +3,57 @@
     <v-card-title>
       <v-subheading> Artes Marciales </v-subheading>
     </v-card-title>
+    <v-divider />
     <v-card-text>
-      Artes marciales. Denominadas también sistemas de lucha, consisten en
-      prácticas cuyo objetivo es someter o defenderse mediante la técnica. Hay
-      varios estilos de artes marciales que excluyen el empleo de armas de fuego
-      y otro armamento moderno. Lo que diferencia a las artes marciales de la
-      violencia física (peleas callejeras)es la organización de sus técnicas en
-      un sistema coherente y la codificación de métodos efectivos. En la
-      actualidad las artes marciales se practican por diferentes razones, que
-      incluyen el deporte, la salud, la protección personal, el desarrollo
-      personal, la disciplina mental, la forja del carácter y la autoconfianza.
-      Además, incluye conocimientos relativos a sistemas que tradicionalmente se
-      han considerado modalidades deportivas.
+      <v-row>
+        <v-col md="3">
+          <v-img
+            src="https://as01.epimg.net/us/imagenes/2021/02/28/masdeporte/1614535208_091374_1614535961_noticia_normal_recorte1.jpg"
+          ></v-img>
+        </v-col>
+        <v-col>
+          Artes marciales. Denominadas también sistemas de lucha, consisten en
+          prácticas cuyo objetivo es someter o defenderse mediante la técnica.
+          Hay varios estilos de artes marciales que excluyen el empleo de armas
+          de fuego y otro armamento moderno. Lo que diferencia a las artes
+          marciales de la violencia física (peleas callejeras)es la organización
+          de sus técnicas en un sistema coherente y la codificación de métodos
+          efectivos. En la actualidad las artes marciales se practican por
+          diferentes razones, que incluyen el deporte, la salud, la protección
+          personal, el desarrollo personal, la disciplina mental, la forja del
+          carácter y la autoconfianza. Además, incluye conocimientos relativos a
+          sistemas que tradicionalmente se han considerado modalidades
+          deportivas.</v-col
+        >
+      </v-row>
     </v-card-text>
-    <v-card-title>Beneficios de practicar una arte marcial</v-card-title>
     <v-card-text>
-      <ul>
-        <li>Asimila la autodefensa.</li>
-        <li>Aprende disciplina, respeto y sentido de la responsabilidad.</li>
-        <li>
-          Mejora tu carácter, alivia la ansiedad y canaliza tu agresividad.
-        </li>
-        <li>Aumenta tu confianza y la seguridad en ti mismo.</li>
-        <li>Mejora tu salud y tu calidad de vida.</li>
-        <li>Trabaja tu concentración y tu paciencia.</li>
-        <li>
-          Potencia tu coordinación y tu equilibrio haz amigos y aumenta tu lista
-          de contactos
-        </li>
-      </ul>
+      <v-row>
+        <v-col
+          ><v-card-title>Beneficios de practicar una arte marcial</v-card-title>
+          <ul>
+            <li>Asimila la autodefensa.</li>
+            <li>
+              Aprende disciplina, respeto y sentido de la responsabilidad.
+            </li>
+            <li>
+              Mejora tu carácter, alivia la ansiedad y canaliza tu agresividad.
+            </li>
+            <li>Aumenta tu confianza y la seguridad en ti mismo.</li>
+            <li>Mejora tu salud y tu calidad de vida.</li>
+            <li>Trabaja tu concentración y tu paciencia.</li>
+            <li>
+              Potencia tu coordinación y tu equilibrio haz amigos y aumenta tu
+              lista de contactos
+            </li>
+          </ul></v-col
+        >
+        <v-col md="3">
+          <v-img
+            src="https://live.mrf.io/statics/i/ps/www.karateymas.com/wp-content/uploads/2019/07/Tipos-de-Jiu-Jitsu.png?width=1200&enable=upscale"
+          ></v-img>
+        </v-col>
+      </v-row>
     </v-card-text>
 
     <v-card-text>
@@ -46,7 +68,9 @@
       A la hora de elegir un arte marcial es muy importante tener en cuenta la
       opinión del niño o niña. En caso contrario cabe la posibilidad de que no
       quiera practicarlo y la búsqueda haya sido en bano. La mejor motivación es
-      la de hacer algo que nos guste y eso también funciona con los peques.
+      la de hacer algo que nos guste y eso también funciona con los
+      peques.Deseas practicar otro arte marcial, que no se encuentra dentro de
+      nuestras categorias, contactanos para solicitar lo que necesites.
     </v-card-text>
     <v-divider></v-divider>
     <v-card-text>
@@ -492,12 +516,13 @@ En contraposición a otras artes marciales, el aikido pretende buscar la disuasi
           {
             type: "list",
             list: [
-              "Aumentará tu resistencia física, ya que afecta favorablemente tanto a la capacidad aeróbica como anaeróbica. ",
-              "Mejora tu salud cardiovascular. Al realizar entrenamientos basados en intervalos, reduciremos el riesgo de sufrir enfermedades cardiovasculares, obtendremos un aumento de la circulación sanguínea, una mejora del sistema respiratorio y una disminución de la presión arterial. ",
+              "Aumentará tu resistencia física. ",
+              "Mejora tu salud cardiovascular.  ",
               "Fortalecerás y definirás los músculos sin ganar peso extra. ",
-              "Con la liberación de endorfinas u hormonas de la felicidad, obtendrás un mayor bienestar. Además, conseguirás reducir la sensación de estrés y aumentará tu autoestima. ",
+              "Con la liberación de endorfinas u hormonas de la felicidad, obtendrás un mayor bienestar.  ",
+              "Conseguirás reducir la sensación de estrés y aumentará tu autoestima.",
               "Conseguirás quemar un gran número de calorías. ",
-              "Al tener que anticiparnos constantemente a los movimientos para esquivarlos o bloquearlos, aumentarán tus reflejos y mejorará tu toma de decisiones. ",
+              "Aumentarán tus reflejos y mejorará tu toma de decisiones. ",
             ],
             image: {
               src: "https://i.ytimg.com/vi/tiHvCdWO79Y/maxresdefault.jpg",
@@ -661,7 +686,48 @@ Lo interesante del lima lama es que proviene de la Polinesia y se le conoce como
             text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
-        image: "./lima-lama-2.png",
+        image: "./lima-lama.png",
+      },
+
+      {
+        title: "Tai-Chi",
+        color: "#ff0901",
+        description: [
+          {
+            type: "text",
+            image: {
+              position: "left",
+              src: "https://www.todaslasartesmarciales.com/wp-content/uploads/2021/05/lima-lama.png",
+            },
+            text: `El lima lama es un arte marcial letal que consiste en movimientos similares a una danza por su fluidez y ritmo intrínsecos. La mayoría de sus movimientos son con las manos, de allí su significado, aproximadamente el 60% de su currículo consiste en técnicas y movimientos de mano.También contiene movimientos de control y derribe así como pelea con palo y cuchillo.  
+
+Lo interesante del lima lama es que proviene de la Polinesia y se le conoce como la mano de la sabiduría. Los principios de esta técnica son el honor y la dignidad de la región a la que se pertenece, así como promulgar la fe y el respeto hacia los demás. `,
+          },
+          {
+            type: "subtitle",
+            text: "BENEFICIOS DE PRACTICAR LIMA LAMA",
+          },
+          {
+            type: "list",
+            image: { src: "./lima-lama-3.png" },
+            list: [
+              "Aprende diciplina,leatad y autocontrol de su propia energia",
+              "La practica de autodefensa le otorga fuerza en los huesos , musculos y articulaciones",
+              "Ayuda a la concentracion",
+              "aporta agilidad y flexibilidad",
+              "mejora la respitacion, el funcinamiento del corazón, del sistema inmunológico",
+              "Ayuda a canalizar el exceso de energia",
+              "Fomenta el autoestima",
+            ],
+          },
+          {
+            type: "text",
+            bold: true,
+            text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
+          },
+        ],
+        image:
+          "https://static5.depositphotos.com/1001030/513/i/600/depositphotos_5134249-stock-photo-woman-in-white-suit-makes.jpg",
       },
     ],
   }),

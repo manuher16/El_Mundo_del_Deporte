@@ -3,7 +3,7 @@
     <v-card-title>
       <v-subheading>Idomas</v-subheading>
     </v-card-title>
-
+    <v-divider />
     <v-card-text>
       <v-row>
         <v-col md="2">
@@ -20,12 +20,13 @@
         >
       </v-row>
     </v-card-text>
-    <v-card-subtitle class="text-h6"
-      >Beneficios de hablar otro idioma
-    </v-card-subtitle>
+
     <v-card-text>
       <v-row>
         <v-col>
+          <v-card-subtitle class="text-h6"
+            >Beneficios de hablar otro idioma
+          </v-card-subtitle>
           <ul>
             <li>Flexivilidad cognitiva</li>
             <li>Pensar en otra lengua ayuda a tomar deciones mas razonables</li>
@@ -50,7 +51,9 @@
       A la hora de elegir un idioma es muy importante tener en cuenta la opinión
       del niño o niña. En caso contrario cabe la posibilidad de que no quiera
       practicarlo y la búsqueda haya sido en bano. La mejor motivación es la de
-      hacer algo que nos guste y eso también funciona con los peques.
+      hacer algo que nos guste y eso también funciona con los peques.Deseas
+      aprender otro idioma, que no se encuentra dentro de nuestras categorias,
+      contactanos para solicitar lo que necesites.
     </v-card-text>
     <v-divider />
     <v-card-text>

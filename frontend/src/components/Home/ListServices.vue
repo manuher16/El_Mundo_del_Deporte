@@ -9,7 +9,7 @@
         md="3"
         v-for="(item, i) in items"
         :key="i"
-        class="justify-start align-start"
+        class="justify-start align-start rounded"
         aling="center"
       >
         <ItemServices :item="item" />

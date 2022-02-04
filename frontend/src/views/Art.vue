@@ -1,6 +1,7 @@
 <template>
   <v-card flat>
     <v-card-title><v-subheading>Artes</v-subheading></v-card-title>
+    <v-divider />
     <v-card-text>
       <v-row>
         <v-col md="3">
@@ -44,7 +45,9 @@
       A la hora de elegir un arte es muy importante tener en cuenta la opinión
       del niño o niña. En caso contrario cabe la posibilidad de que no quiera
       practicarlo y la búsqueda haya sido en bano. La mejor motivación es la de
-      hacer algo que nos guste y eso también funciona con los peques.
+      hacer algo que nos guste y eso también funciona con los peques. Deseas
+      aprender otro arte, que no se encuentra dentro de nuestras categorias,
+      contactanos para solicitar lo que necesites.
     </v-card-text>
     <v-divider />
     <v-card-text>

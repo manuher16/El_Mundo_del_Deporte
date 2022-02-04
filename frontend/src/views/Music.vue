@@ -47,7 +47,9 @@
       A la hora de elegir es muy importante tener en cuenta la opinión del niño
       o niña. En caso contrario cabe la posibilidad de que no quiera practicarlo
       y la búsqueda haya sido en bano. La mejor motivación es la de hacer algo
-      que nos guste y eso también funciona con los peques.
+      que nos guste y eso también funciona con los peques. Deseas aprender a
+      tocar otro instrumento, que no se encuentra dentro de nuestras categorias,
+      contactanos para solicitar lo que necesites.
     </v-card-text>
     <v-divider />
     <v-card-text>

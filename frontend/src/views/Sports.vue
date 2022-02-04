@@ -7,11 +7,76 @@
         </div>
       </div>
     </v-card-title>
+    <v-divider></v-divider>
+    <v-card-text>
+      <v-row>
+        <v-col md="3">
+          <v-img
+            src="https://cdn-cinfasalud.cinfa.com/wp-content/uploads/2019/08/CinfaSalud-imagen-beneficios-deporte-600.jpg"
+          ></v-img>
+        </v-col>
+        <v-col
+          >Lo más probable es que hayas oído incontables veces que hacer
+          ejercicio es "bueno para ti". Pero ¿sabías que, en el fondo, también
+          te puede ayudar a sentirte bien? Hacer la cantidad adecuada de
+          ejercicio físico puede aumentar tu nivel de energía y hasta ayudarte a
+          mejorar el estado de ánimo. Los expertos recomiendan que los jóvenes
+          por lo general hagan 60 minutos de actividades física moderada al dia,
+          el ejercicio es bueno para todas las partes del cuerpo y
+          principalmente para la mente. El ejercicio hace que el cuerpo produzca
+          unas sustancias químicas que nos hacen estar felices y tener
+          tranquilidad. El ejercicio ayuda a algunas persona a poder dormir
+          mejor. También ayuda a las personas que tienen o padecen de depresión
+          o tienen bajo la autoestima.
+        </v-col>
+      </v-row>
+    </v-card-text>
+
+    <v-card-text>
+      <v-row>
+        <v-col>
+          <v-card-subtitle class="text-h6"
+            >Beneficios de la práctica deportiva
+          </v-card-subtitle>
+          <ul>
+            <li>
+              Colabora en el mantenimiento del peso ideal y previene la
+              obesidad.
+            </li>
+            <li>Baja las cifras la tensión arterial.</li>
+            <li>
+              Previene las elevaciones de la glucosa y reduce las necesidades de
+              insulina en los diabéticos.
+            </li>
+            <li>
+              Eleva el nivel de colesterol bueno (HDL) y disminuye los
+              triglicéridos.
+            </li>
+            <li>
+              Mejora la agilidad, potencia los reflejos, aumenta la velocidad y
+              refuerza la resistencia.
+            </li>
+            <li>Disminuye el riesgo de padecer osteoporosis.</li>
+            <li>Disminuye la tendencia a desarrollar actitudes agresivas.</li>
+            <li>Estimula el rendimiento académico.</li>
+          </ul></v-col
+        >
+        <v-col md="3">
+          <v-img
+            max-height="250"
+            contain
+            src="https://static.guiainfantil.com/media/28339/c/el-deporte-y-los-ninos-md.jpg"
+          ></v-img>
+        </v-col>
+      </v-row>
+    </v-card-text>
     <v-card-text>
       A la hora de elegir un deporte es muy importante tener en cuenta la
       opinión del niño o niña. En caso contrario cabe la posibilidad de que no
       quiera practicarlo y la búsqueda haya sido en bano. La mejor motivación es
       la de hacer algo que nos guste y eso también funciona con los peques.
+      Deseas practicar otro deporte, que no se encuentra dentro de nuestras
+      categorias, contactanos para solicitar lo que necesites.
     </v-card-text>
     <v-divider></v-divider>
     <v-card-text>
