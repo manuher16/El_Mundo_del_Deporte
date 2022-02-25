@@ -75,7 +75,8 @@ export default {
 .image_card {
 }
 .image-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
+  transition: all 0.7s ease;
 }
 .rounded-card {
   border-radius: 10px !important;

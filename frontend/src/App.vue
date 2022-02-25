@@ -3,7 +3,7 @@
     <Navbar />
     <v-main>
       <ButtonContact />
-      <v-container fluid>
+      <v-container fluid class="">
         <router-view />
       </v-container>
     </v-main>

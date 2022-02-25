@@ -1,7 +1,7 @@
 <template>
-  <v-container fluid class="mx-0 px-0">
+  <div>
     <Carousel />
-    <v-card flat class="" shaped>
+    <v-card flat class="mx-3" shaped>
       <v-row class="d-flex justify-center my-2">
         <v-card-title class="text-h4 text-center">Sobre Nosotros</v-card-title>
       </v-row>
@@ -75,10 +75,10 @@
       <v-row class="my-3">
         <v-col v-for="(item, index) in services" :key="index" md="4">
           <router-link :to="item.href" class="router-link">
-            <v-card :img="item.image" height="250">
+            <v-card :img="item.image" height="250" class="image-item">
               <v-card
                 class="d-flex align-end mb-6 justify-center white--text"
-                color="transparent"
+                color="transparent hover-tar"
                 flat
                 height="100%"
                 tile
@@ -108,7 +108,7 @@
     <v-card>
       <ListServices />
     </v-card>
-  </v-container>
+  </div>
 </template>
 
 <script>

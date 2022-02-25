@@ -697,27 +697,24 @@ Lo interesante del lima lama es que proviene de la Polinesia y se le conoce como
             type: "text",
             image: {
               position: "left",
-              src: "https://www.todaslasartesmarciales.com/wp-content/uploads/2021/05/lima-lama.png",
+              src: "https://s.yimg.com/ny/api/res/1.2/SDNAixX4jbkC1u1exgTTmg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTQ0Mg--/https://s.yimg.com/uu/api/res/1.2/n3.T.5EDKxcoVaq90VcUhA--~B/aD03MDc7dz0xNTM1O2FwcGlkPXl0YWNoeW9u/http://media.zenfs.com/en/homerun/feed_manager_auto_publish_494/c5de582f003e8dbb3ad657536a2c0a0c",
             },
-            text: `El lima lama es un arte marcial letal que consiste en movimientos similares a una danza por su fluidez y ritmo intrínsecos. La mayoría de sus movimientos son con las manos, de allí su significado, aproximadamente el 60% de su currículo consiste en técnicas y movimientos de mano.También contiene movimientos de control y derribe así como pelea con palo y cuchillo.  
-
-Lo interesante del lima lama es que proviene de la Polinesia y se le conoce como la mano de la sabiduría. Los principios de esta técnica son el honor y la dignidad de la región a la que se pertenece, así como promulgar la fe y el respeto hacia los demás. `,
+            text: `Si estás buscando una manera de reducir el estrés, considera el tai chi. Originalmente desarrollado para la defensa personal, el taichi ha evolucionado hasta convertirse en una forma elegante de ejercicio que ahora se utiliza para la reducción del estrés y una variedad de otras afecciones de salud. A menudo descrito como meditación en movimiento, el tai chi promueve la serenidad mediante movimientos suaves y fluidos. El tai chi es de bajo impacto y ejerce un esfuerzo mínimo sobre los músculos y las articulaciones, lo que lo hace generalmente seguro para todas las edades y niveles de estado físico.`,
           },
           {
             type: "subtitle",
-            text: "BENEFICIOS DE PRACTICAR LIMA LAMA",
+            text: "BENEFICIOS DE tai chi ",
           },
           {
             type: "list",
-            image: { src: "./lima-lama-3.png" },
+            image: { src: "https://okdiario.com/img/2019/11/25/tai-chi.jpg" },
             list: [
-              "Aprende diciplina,leatad y autocontrol de su propia energia",
-              "La practica de autodefensa le otorga fuerza en los huesos , musculos y articulaciones",
-              "Ayuda a la concentracion",
-              "aporta agilidad y flexibilidad",
-              "mejora la respitacion, el funcinamiento del corazón, del sistema inmunológico",
-              "Ayuda a canalizar el exceso de energia",
-              "Fomenta el autoestima",
+              "Menos estrés, ansiedad y depresión. ",
+              "Mejor estado de ánimo. ",
+              "Mayor capacidad aeróbica. ",
+              "Aumento de la energía y la resistencia. ",
+              "Mayor flexibilidad, equilibrio y agilidad. ",
+              "Más fuerza y definición muscular. ",
             ],
           },
           {
