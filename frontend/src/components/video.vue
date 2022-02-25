@@ -1,7 +1,7 @@
 <template>
   <v-card flat class="">
     <LazyYoutube
-      src="https://www.youtube.com/watch?v=TcMBFSGVi1c"
+      src="https://www.youtube.com/watch?v=-BTp0MGMSn8"
       max-width="100%"
       autoplay
       showTitle

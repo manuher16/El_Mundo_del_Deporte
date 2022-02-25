@@ -12,7 +12,7 @@
       class="mx-0 px-0"
       width="100vw"
     >
-      <VideoPlayer v-if="i === 1" />
+      <VideoPlayer v-if="i === 0" />
       <v-sheet :color="colors[i]" height="100%" v-else>
         <v-img :src="images[i]" contain height="100%">
           <div class="title__card--top">{{ slide }}</div>
