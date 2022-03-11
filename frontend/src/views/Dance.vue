@@ -360,7 +360,7 @@ Las principales canciones de los artistas están convencionalmente acompañadas 
         href: "",
       },
       {
-        title: "Danza folklorica",
+        title: "Danza Folklorica",
         description: [
           {
             type: "text",
@@ -628,7 +628,7 @@ Se lo asocia a una forma de bailar “sensual” y provocativa, con los cuerpos 
         href: "",
       },
       {
-        title: "Coreografias para compotemcias",
+        title: "Coreografias Para Compotencias",
         description: [
           {
             type: "text",

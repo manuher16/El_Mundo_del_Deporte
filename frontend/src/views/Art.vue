@@ -18,7 +18,7 @@
         </v-col>
       </v-row>
     </v-card-text>
-    <v-card-title>Beneficios a través del arte </v-card-title>
+    <v-card-text class="text-h4">Beneficios a través del arte </v-card-text>
     <v-card-text>
       <v-row>
         <v-col>
@@ -62,7 +62,7 @@ export default {
   data: () => ({
     items: [
       {
-        title: "Artes plasticas",
+        title: "Artes Plasticas",
         description: [
           {
             type: "text",

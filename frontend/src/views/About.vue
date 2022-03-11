@@ -1,8 +1,10 @@
 <template>
   <v-container fluid class="">
-    <v-card flat class="" shaped>
+    <v-card flat class="" shaped color="transparent">
       <v-row class="d-flex justify-center my-2">
-        <v-card-title class="text-h4 text-center">Sobre Nosotros</v-card-title>
+        <v-card-title class="text-h4 text-center white--text"
+          >Sobre Nosotros</v-card-title
+        >
       </v-row>
       <v-divider />
       <v-row class="d-flex justify-center my-5">

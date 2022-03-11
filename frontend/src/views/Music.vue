@@ -1,5 +1,5 @@
 <template>
-  <v-card flat>
+  <v-card flat color="">
     <v-card-title><v-subheading> Musica</v-subheading></v-card-title>
     <v-card-text>
       <v-row>
@@ -103,7 +103,7 @@ export default {
         href: "",
       },
       {
-        title: "Guitarra electrica",
+        title: "Guitarra Electrica",
         description: [
           {
             type: "text",

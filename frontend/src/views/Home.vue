@@ -1,7 +1,7 @@
 <template>
   <div>
-    <Carousel />
-    <v-card flat class="mx-3" shaped>
+    <Video />
+    <v-card flat class="mx-3" shaped color="transparent">
       <v-row class="d-flex justify-center my-2">
         <v-card-title class="text-h4 text-center">Sobre Nosotros</v-card-title>
       </v-row>
@@ -9,7 +9,7 @@
 
       <v-row class="d-flex justify-center my-5">
         <v-col
-          ><v-card max-width="450" class="" shaped>
+          ><v-card max-width="450" class="" shaped color="">
             <v-sheet
               color="success"
               height=""
@@ -28,7 +28,7 @@
           </v-card></v-col
         >
         <v-col
-          ><v-card max-width="450" class="" shaped>
+          ><v-card max-width="450" width="350" class="" shaped color="">
             <v-sheet
               color="#0251ff"
               height=""
@@ -47,7 +47,7 @@
             </v-card-text>
           </v-card></v-col
         ><v-col
-          ><v-card max-width="450" class="" shaped>
+          ><v-card max-width="450" width="350" class="" shaped color="">
             <v-sheet
               color="warning"
               height=""
@@ -112,7 +112,7 @@
 </template>
 
 <script>
-import Carousel from "../components/Home/Carousel.vue";
+import Video from "../components/video.vue";
 import ListServices from "../components/Home/ListServices.vue";
 export default {
   name: "Home",
@@ -205,7 +205,7 @@ export default {
     ],
     slides: ["First", "Second", "Third", "Fourth", "Fifth"],
   }),
-  components: { ListServices, Carousel },
+  components: { ListServices, Video },
 };
 </script>
 <style>

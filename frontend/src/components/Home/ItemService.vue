@@ -31,7 +31,9 @@
             cover
             :aspect-ratio="hover ? 1.7 : 1"
           >
-            <div class="title__card font-weight-black">{{ item.title }}</div>
+            <div class="title__card font-weight-black mt-2">
+              {{ item.title }}
+            </div>
           </v-img>
         </v-sheet>
       </v-expand-transition>

@@ -26,7 +26,7 @@
       top
       temporary
       width="450"
-      color="success"
+      color="rgb(12,128,145,0.46)"
       dark
     >
       <v-card>
@@ -44,11 +44,11 @@
         </v-card-title>
       </v-card>
 
-      <v-list>
+      <v-list dark color="">
         <v-list-item-group v-model="group" active-class="">
           <div v-for="(item, index) in drawerMenu" :key="index">
             <router-link :to="item.href" class="router-link">
-              <v-list-item>
+              <v-list-item color="white">
                 <v-list-item-icon>
                   <v-icon large>{{ item.icon }}</v-icon>
                 </v-list-item-icon>
@@ -94,7 +94,7 @@ export default {
       },
       {
         name: "Recreacion para Empresas",
-        href: "/deporte-extremos",
+        href: "/recreacion-empresas",
         icon: "mdi-domain",
       },
       {

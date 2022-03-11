@@ -12,25 +12,26 @@
           ></v-img>
         </v-col>
         <v-col>
-          Artes marciales. Denominadas también sistemas de lucha, consisten en
-          prácticas cuyo objetivo es someter o defenderse mediante la técnica.
-          Hay varios estilos de artes marciales que excluyen el empleo de armas
-          de fuego y otro armamento moderno. Lo que diferencia a las artes
-          marciales de la violencia física (peleas callejeras)es la organización
-          de sus técnicas en un sistema coherente y la codificación de métodos
-          efectivos. En la actualidad las artes marciales se practican por
-          diferentes razones, que incluyen el deporte, la salud, la protección
-          personal, el desarrollo personal, la disciplina mental, la forja del
-          carácter y la autoconfianza. Además, incluye conocimientos relativos a
-          sistemas que tradicionalmente se han considerado modalidades
-          deportivas.</v-col
+          Denominadas también sistemas de lucha, consisten en prácticas cuyo
+          objetivo es someter o defenderse mediante la técnica. Hay varios
+          estilos de artes marciales que excluyen el empleo de armas de fuego y
+          otro armamento moderno. Lo que diferencia a las artes marciales de la
+          violencia física (peleas callejeras)es la organización de sus técnicas
+          en un sistema coherente y la codificación de métodos efectivos. En la
+          actualidad las artes marciales se practican por diferentes razones,
+          que incluyen el deporte, la salud, la protección personal, el
+          desarrollo personal, la disciplina mental, la forja del carácter y la
+          autoconfianza. Además, incluye conocimientos relativos a sistemas que
+          tradicionalmente se han considerado modalidades deportivas.</v-col
         >
       </v-row>
     </v-card-text>
     <v-card-text>
       <v-row>
         <v-col
-          ><v-card-title>Beneficios de practicar una arte marcial</v-card-title>
+          ><v-card-text class="font-weight-black">
+            Beneficios de practicar una arte marcial</v-card-text
+          >
           <ul>
             <li>Asimila la autodefensa.</li>
             <li>

@@ -84,7 +84,7 @@ export default {
   data: () => ({
     items: [
       {
-        title: "Entrenamiento de musculacion  ",
+        title: "Entrenamiento de Musculacion  ",
         image:
           "https://image.freepik.com/foto-gratis/caucasico-deporte-pared-abdominal-fondo_1296-394.jpg",
         description: [
@@ -207,7 +207,7 @@ La hipertrofia busca el crecimiento del musculo y de las fibras musculares por l
         ],
       },
       {
-        title: "Entrenamiento funcional ",
+        title: "Entrenamiento Funcional ",
         image:
           "https://casaydiseno.com/wp-content/uploads/2020/01/entrenamiento-funcional-mejor-cuerpo.jpg",
         description: [

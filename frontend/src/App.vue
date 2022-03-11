@@ -3,9 +3,11 @@
     <Navbar />
     <v-main>
       <ButtonContact />
-      <v-container fluid class="">
-        <router-view />
-      </v-container>
+      <v-card flat color="rgb(31,107,132,0.48)">
+        <v-container fluid class="">
+          <router-view />
+        </v-container>
+      </v-card>
     </v-main>
     <ModalServices />
     <Footer />
@@ -31,6 +33,9 @@ export default {
     WelcomeModal,
     ButtonContact,
     ModalServices,
+  },
+  created() {
+    localStorage.setItem("modalWelcome", "true");
   },
 };
 </script>

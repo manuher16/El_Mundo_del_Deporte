@@ -1,19 +1,26 @@
 <template>
-  <v-dialog v-model="modalWelcome" width="100%">
-    <v-card widht="100%" height="auto">
-      <v-card-title>
-        <span class="headline">Bienvenidos</span>
-      </v-card-title>
-      <v-card-text>
-        <p>lorem ips our</p>
+  <v-dialog v-model="modalWelcome" width="100%" @click="setModalWelcome(false)">
+    <v-card
+      widht="100%"
+      height="auto"
+      @click="setModalWelcome(false)"
+      class="text-center"
+    >
+      <v-sheet color="primary">
+        <v-card-title>
+          <v-spacer />
+          <span class="headline white--text text-center">Bienvenidos</span>
+          <v-spacer />
+        </v-card-title>
+      </v-sheet>
+      <v-divider />
+      <v-card-text class="text-h6">
+        <p>Te damos la bienvenida a Mundo Deporte y Mas</p>
       </v-card-text>
       <v-divider />
-      <v-card-actions>
-        <v-spacer></v-spacer>
-        <v-btn color="blue darken-1" text @click="setModalWelcome(false)">
-          Cerrar
-        </v-btn>
-      </v-card-actions>
+      <v-card-text class="text-h6">
+        <p>Disfruta la experiencia</p>
+      </v-card-text>
     </v-card>
   </v-dialog>
 </template>

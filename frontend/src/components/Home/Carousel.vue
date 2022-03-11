@@ -5,6 +5,9 @@
     hide-delimiter-background
     show-arrows-on-hover
     class="carusel mx-0 px-0"
+    cycle
+    v-model="page"
+    :interval="page == 0 ? 122000 : 5000"
   >
     <v-carousel-item
       v-for="(slide, i) in slides"
@@ -26,6 +29,7 @@
 import VideoPlayer from "../video.vue";
 export default {
   data: () => ({
+    page: 0,
     colors: [
       "indigo",
       "warning",
