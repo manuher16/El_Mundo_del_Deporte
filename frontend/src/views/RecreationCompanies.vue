@@ -1,8 +1,19 @@
 <template>
   <v-container fluid>
     <v-card flat>
-      <v-card-text class="text-h4"> Recreación para empresas </v-card-text>
+      <v-card-text class="text-h4"> Recreación Para Empresas </v-card-text>
       <v-divider />
+      <v-card-title class="text-center">
+        <v-spacer />
+        <v-img
+          contain
+          width="200"
+          heigth="200"
+          src="https://www.piasesoria.com/wp-content/uploads/2018/03/foos.jpg"
+        ></v-img>
+        <v-spacer />
+      </v-card-title>
+
       <v-card-text
         >La recreación se define como la acción y efecto de recrear, por lo
         tanto, hace referencia a crear o a producir de nuevo algo, también se
@@ -65,6 +76,16 @@
         concentración de los trabajadores. Ayuda a liberar tensiones y a
         combatir el estrés, causando bienestar.
       </v-card-text>
+      <v-card-title class="text-center">
+        <v-spacer />
+        <v-img
+          contain
+          width="300"
+          heigth="300"
+          src="https://rhenlasempresas.com/wp-content/uploads/2021/06/Sentido-humano.jpg"
+        ></v-img>
+        <v-spacer />
+      </v-card-title>
       <v-card-text class="font-weight-black">
         Si deseas conocer mas sobre nuestros proyectos de recreación laboral
         diseñados de forma personalizada segun las necesidades y recursos que se

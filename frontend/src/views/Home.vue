@@ -1,6 +1,7 @@
 <template>
   <div>
     <Video />
+
     <v-card flat class="mx-3" shaped color="transparent">
       <v-row class="d-flex justify-center my-2">
         <v-card-title class="text-h4 text-center">Sobre Nosotros</v-card-title>
@@ -113,6 +114,7 @@
 
 <script>
 import Video from "../components/video.vue";
+
 import ListServices from "../components/Home/ListServices.vue";
 export default {
   name: "Home",

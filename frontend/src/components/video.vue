@@ -14,16 +14,19 @@
 
 <script>
 import { LazyYoutube } from "vue-lazytube";
-
 export default {
   name: "YourComponent",
+  data: () => ({
+    temp: { video_id: "-BTp0MGMSn8", loop: 1 },
+    play: { video_id: "-BTp0MGMSn8", loop: 1 },
+  }),
+  methods: {},
   components: {
     LazyYoutube,
   },
   created() {
     setTimeout(() => {
-      console.log(this.$refs.lazyVideo);
-      this.$refs["lazyVideo"]["playVideo"]();
+      this.$refs.lazyVideo.playVideo();
     }, 2000);
   },
 };
