@@ -88,7 +88,7 @@ export default {
           },
         ],
         image:
-          "https://www.egarsat.es/wp-content/uploads/2019/09/fisioterapia.jpg",
+          "https://d500.epimg.net/cincodias/imagenes/2020/03/31/companias/1585648814_094407_1585650142_noticia_normal.jpg",
         href: "",
       },
       {

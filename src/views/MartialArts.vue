@@ -687,7 +687,7 @@ Lo interesante del lima lama es que proviene de la Polinesia y se le conoce como
             text: `Entrena con instructores certificados y especializados en el area que te guiarán paso a paso para cumplir tus objetivos.`,
           },
         ],
-        image: "./lima-lama.png",
+        image: "./lima-lama-2.png",
       },
 
       {
