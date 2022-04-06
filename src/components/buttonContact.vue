@@ -1,17 +1,20 @@
 <template>
   <div class="container-button-contact-large">
-    <v-btn
-      rounded
-      color="success"
-      href="https://api.whatsapp.com/send?phone=50496474729&app=facebook&entry_point=page_cta&fbclid=IwAR1RaSBFoGYm7xn-Y1oVPWqiyp12dBojVkZP1q51l7MZwd8ciOWJ0ZI-4OI"
-    >
+    <v-btn rounded color="success" :href="`${contact}`">
       Contactanos <v-icon large class="ml-2">mdi-whatsapp</v-icon>
     </v-btn>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => ({
+    contact: process.env.VUE_APP_TELEPHONE_CONTACT,
+  }),
+  created() {
+    console.log(this.contact, process.env);
+  },
+};
 </script>
 
 <style>

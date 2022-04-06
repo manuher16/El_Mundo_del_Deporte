@@ -98,10 +98,7 @@
 
       <v-divider />
       <v-card-actions>
-        <v-btn
-          color="success"
-          large
-          href="https://api.whatsapp.com/send?phone=50489772032&app=facebook&entry_point=page_cta&fbclid=IwAR3BdjioyHiFRGRtRkVpwQB30wB8FEVeCBJio_J2vtHHLV5U49tlfwaII08"
+        <v-btn color="success" large :href="`${contact}`"
           >Contactanos <v-icon large>mdi-whatsapp</v-icon></v-btn
         >
         <v-spacer /><v-btn
@@ -119,6 +116,9 @@
 <script>
 import { mapState, mapMutations } from "vuex";
 export default {
+  data: () => ({
+    contact: process.env.VUE_APP_TELEPHONE_CONTACT,
+  }),
   computed: {
     ...mapState("modalInfoService", ["modalInfoService", "content"]),
   },
